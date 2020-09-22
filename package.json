@@ -6,22 +6,34 @@
   "author": "Diego Ortega",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "start": "node ./bin/www",
+    "server": "nodemon server",
+    "client": "npm start --prefix ../client",
+    "dev": "nodemon --exec npm start"
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
+    "aws-sdk": "^2.752.0",
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
+    "debug": "^4.2.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "file-type": "^15.0.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.20",
     "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.11",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
+    "sequelize": "^6.3.5",
+    "uuid": "^8.3.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0"
   }
 }

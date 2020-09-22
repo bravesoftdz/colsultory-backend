@@ -2,14 +2,6 @@ const Joi = require('@hapi/joi');
 const logger = require('../../../utils/logger');
 
 const validateUser = Joi.object({
-    username: Joi.string()
-    .max(15)
-    .min(6)
-    .required(),
-    name: Joi.string()
-    .max(15) 
-    .min(6)
-    .required(),
     email: Joi.string()
     .email()
     .required(),

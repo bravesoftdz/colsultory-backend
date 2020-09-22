@@ -1,19 +1,18 @@
 const express = require('express');
 const usersController = require('./users.controller');
-const logger = require('../../../utils/logger');
 const validateUser = require('./users.validate')
 const usersRouter = express.Router();
+const logger = require('../../../utils/logger')
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken')
-const config = require('../../../config')
 const passport = require('passport')
+const models = require('../../../models')
 
 // Autenticación
 const jwtAuthenticate = passport.authenticate('jwt', { session: false });
 
 // Transformamos el username y el email en minusculas 
 function bodyLowercase(req,res,next) {
-    req.body.username && (req.body.username = req.body.username.toLowerCase());
     req.body.email && (req.body.email = req.body.email.toLowerCase());
     next();
 }
@@ -28,10 +27,10 @@ usersRouter.get('/', (req, res) => {
 usersRouter.post('/signup',[validateUser, bodyLowercase],(req, res) => {
     let newUser = req.body
     // Necesitamos verificar que el usuario ya esta registrado
-    usersController.userExist(newUser.username, newUser.email)
+    usersController.userExist(newUser.email)
         .then(userExits => {
             if (userExits) {
-                logger.warn(`Email ${newUser.email} o Username ${newUser.username} ya existen`);
+                logger.warn(`Email ${newUser.email} ya existe`);
                 res.status(409).send('El email o el username de usuario ya estan siendo usados')
                 return
             }
@@ -50,6 +49,7 @@ usersRouter.post('/signup',[validateUser, bodyLowercase],(req, res) => {
                         res.status(201).json(user)
                     })
                     .catch(error => {
+                        console.log(error)
                         logger.error('Usuario no pudo ser creado');
                         res.status(500).send('Ha ocurrido un error, el usuario no se creo')
                     })
@@ -57,42 +57,43 @@ usersRouter.post('/signup',[validateUser, bodyLowercase],(req, res) => {
 
         })
         .catch(err => {
-            logger.error(`Error ocurrio al tratar de verificar si el email ${newUser.email} o el usuario ${newUser.username} existen`);
+            console.log(err)
+            logger.error(`Error ocurrio al tratar de verificar si el email ${newUser.email} existen`);
             res.status(500).send('Error ocurrió al trata de crear un nuevo usuario')
         })
 })
 
 usersRouter.post('/login', async (req,res) => {
-    let userNoAuth = req.body
+    let { email, password } = req.body
+    console.log(req.body)
+    console.log(email)
     let userRegistered;
-
     try {
-        userRegistered = await usersController.getUser({
-            email: userNoAuth.email
-        })
+        userRegistered = await  models.user.findOne({ where: { email} });
+        console.log(userRegistered)
     } catch (error) {
-        logger.error(`Error ocurrió al tratar de ver al usuario ${userNoAuth.email} si existe`);
-        res.status(500).send('Ha ocurrido un error al procesar el login');
+        logger.error(`Error ocurrió al tratar de ver al usuario ${email} si existe`);
+        res.status(500).send('Debes ingresar un correo y una contraseña');
         return
     }
 
     if(!userRegistered) {
-        logger.info(`Usuario con el email ${userNoAuth.email} no existe`)
-        res.status(400).send('Este usuario no se encuentra registrado');
+        logger.info(`Usuario con el email ${email} no existe`)
+        res.status(400).send('Este administrador no esta registrado, escriba un correo valido');
         return
     }
 
     let passwordCorrect;
 
     try {
-        passwordCorrect = await bcrypt.compare(userNoAuth.password, userRegistered.password)
+        passwordCorrect = await bcrypt.compare( password, userRegistered.password)
     } catch (error) {
         logger.error(`Error ocurrió al verificar si la contraseña era correcta`);
         res.status(500).send('Error al procesar el login');
     }
 
     if(passwordCorrect) {
-        let token = jwt.sign({ id: userRegistered.id }, config.jwt.SECRET, { expiresIn: config.jwt.EXPIRES })
+        let token = jwt.sign({ id: userRegistered.id }, 'CONSULTORY', { expiresIn: '24h' })
         logger.info(`Usuario con email ${userRegistered.email} completo autenticación correctamente`);
         res.status(200).json({ token })
     } else {
