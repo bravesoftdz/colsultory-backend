@@ -11789,3 +11789,1370 @@ info: 2020-09-22T20:40:31.951Z ::ffff:127.0.0.1 - GET /img/uploads/71337d56-cc7e
 info: 2020-09-22T20:40:31.966Z ::ffff:127.0.0.1 - GET /img/uploads/d02c2475-0b4c-4962-a581-3ddec4025733.png HTTP/1.1 304 - - 13.786 ms
 info: 2020-09-22T20:40:31.978Z ::ffff:127.0.0.1 - GET /img/uploads/e7f42b3d-6619-486f-a407-554b5a129c89.png HTTP/1.1 304 - - 0.830 ms
 info: 2020-09-22T20:40:32.084Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 166.579 ms
+info: 2020-09-22T22:30:49.762Z Informando en el servidor
+info: 2020-09-22T22:31:09.450Z Informando en el servidor
+info: 2020-09-22T22:31:16.751Z ::ffff:127.0.0.1 - GET /api/users/me HTTP/1.1 401 - - 18.833 ms
+info: 2020-09-22T22:31:18.768Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 500 290 - 2044.598 ms
+info: 2020-09-22T23:29:47.705Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 500 345 - 442.678 ms
+info: 2020-09-22T23:29:49.808Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 500 345 - 2.399 ms
+info: 2020-09-22T23:35:40.896Z ::ffff:127.0.0.1 - GET /api/users/me HTTP/1.1 401 - - 1.771 ms
+error: 2020-09-22T23:57:53.522Z Error ocurrio al tratar de verificar si el email miya@gmail.com existen
+info: 2020-09-22T23:57:53.524Z ::1 - POST /api/users/signup HTTP/1.1 500 49 - 162.295 ms
+info: 2020-09-23T00:00:31.650Z Informando en el servidor
+info: 2020-09-23T00:02:45.067Z Usuario creado correctamente
+info: 2020-09-23T00:02:45.078Z ::1 - POST /api/users/signup HTTP/1.1 201 107 - 653.619 ms
+info: 2020-09-23T00:03:12.527Z Usuario con email miya@gmail.com completo autenticación correctamente
+info: 2020-09-23T00:03:12.538Z ::ffff:127.0.0.1 - POST /api/users/login HTTP/1.1 200 149 - 192.863 ms
+info: 2020-09-23T00:03:12.611Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-23T00:03:12.613Z ::ffff:127.0.0.1 - GET /api/users/me HTTP/1.1 200 36 - 6.712 ms
+info: 2020-09-23T00:03:12.957Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 200 2 - 39.976 ms
+info: 2020-09-23T00:03:13.003Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 200 2 - 37.344 ms
+info: 2020-09-23T18:22:37.669Z Informando en el servidor
+info: 2020-09-23T18:24:02.452Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-23T18:24:02.470Z ::ffff:127.0.0.1 - GET /api/users/me HTTP/1.1 200 36 - 836.710 ms
+info: 2020-09-23T18:24:02.476Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 859.152 ms
+info: 2020-09-23T19:29:22.054Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 22.481 ms
+info: 2020-09-23T19:29:22.084Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 59.967 ms
+info: 2020-09-23T19:29:30.866Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 2.648 ms
+info: 2020-09-23T19:29:35.262Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 11.612 ms
+info: 2020-09-23T19:29:35.626Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-23T19:29:35.629Z ::ffff:127.0.0.1 - GET /api/users/me HTTP/1.1 304 - - 35.009 ms
+info: 2020-09-23T19:29:52.686Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 6.830 ms
+info: 2020-09-23T19:29:53.486Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 3.107 ms
+info: 2020-09-23T19:30:01.054Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 6.618 ms
+info: 2020-09-23T19:30:03.780Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 3.669 ms
+info: 2020-09-23T19:30:11.497Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 2.332 ms
+info: 2020-09-23T19:30:16.533Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 3.151 ms
+info: 2020-09-23T19:30:21.005Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 3.578 ms
+info: 2020-09-23T19:30:21.325Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 9.788 ms
+info: 2020-09-23T19:30:36.056Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 11.294 ms
+info: 2020-09-23T19:30:39.742Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 2.456 ms
+info: 2020-09-23T19:32:53.872Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 388.567 ms
+info: 2020-09-23T19:32:53.874Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-23T19:32:53.878Z ::ffff:127.0.0.1 - GET /api/users/me HTTP/1.1 304 - - 394.828 ms
+info: 2020-09-23T19:34:50.744Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 14.744 ms
+info: 2020-09-23T19:35:00.056Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 7.332 ms
+info: 2020-09-23T19:35:00.385Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 12.740 ms
+info: 2020-09-23T19:35:03.682Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 11.684 ms
+info: 2020-09-23T19:35:04.725Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 1.681 ms
+info: 2020-09-23T19:35:05.054Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 4.872 ms
+info: 2020-09-23T19:35:07.614Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 4.722 ms
+info: 2020-09-23T19:35:07.632Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 1.848 ms
+info: 2020-09-23T19:35:07.953Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 6.369 ms
+info: 2020-09-23T19:35:16.955Z ::ffff:127.0.0.1 - GET /api/banners HTTP/1.1 304 - - 10.804 ms
+info: 2020-09-23T19:35:24.380Z ::ffff:127.0.0.1 - GET /api/clients HTTP/1.1 304 - - 2.034 ms
+info: 2020-09-23T19:55:51.230Z Informando en el servidor
+info: 2020-09-23T21:58:23.377Z Informando en el servidor
+info: 2020-09-24T02:26:38.220Z Informando en el servidor
+info: 2020-09-24T02:26:54.312Z ::1 - GET / HTTP/1.1 200 109 - 1372.131 ms
+info: 2020-09-24T02:26:54.534Z ::1 - GET /favicon.ico HTTP/1.1 404 150 - 4.635 ms
+info: 2020-09-24T02:27:28.820Z ::1 - GET /banners HTTP/1.1 404 146 - 1.019 ms
+info: 2020-09-24T02:27:37.881Z ::1 - GET /api/banners HTTP/1.1 200 2 - 9.411 ms
+info: 2020-09-24T02:27:47.912Z ::1 - GET / HTTP/1.1 304 - - 6.177 ms
+info: 2020-09-24T02:28:54.467Z Informando en el servidor
+info: 2020-09-24T02:37:18.132Z ::1 - GET / HTTP/1.1 404 139 - 9.369 ms
+info: 2020-09-24T02:37:19.709Z ::1 - GET / HTTP/1.1 404 139 - 0.800 ms
+info: 2020-09-24T02:37:20.535Z ::1 - GET / HTTP/1.1 404 139 - 1.081 ms
+info: 2020-09-24T02:37:21.317Z ::1 - GET / HTTP/1.1 404 139 - 0.847 ms
+info: 2020-09-24T02:37:22.159Z ::1 - GET / HTTP/1.1 404 139 - 0.571 ms
+info: 2020-09-25T04:29:48.129Z Informando en el servidor
+info: 2020-09-25T04:32:32.027Z ::1 - OPTIONS /api/users/me HTTP/1.1 200 8 - 5.830 ms
+info: 2020-09-25T04:32:41.034Z ::1 - OPTIONS /api/users/me HTTP/1.1 200 8 - 0.318 ms
+info: 2020-09-25T04:32:51.642Z ::1 - OPTIONS /api/users/login HTTP/1.1 200 4 - 0.507 ms
+info: 2020-09-25T04:33:00.559Z ::1 - OPTIONS /api/users/login HTTP/1.1 200 4 - 0.461 ms
+info: 2020-09-25T04:34:46.338Z Informando en el servidor
+info: 2020-09-25T04:35:06.836Z Informando en el servidor
+info: 2020-09-25T04:35:12.109Z ::1 - GET /api/users/me HTTP/1.1 401 - - 4.823 ms
+info: 2020-09-25T04:35:23.184Z Usuario con email miya@gmail.com completo autenticación correctamente
+info: 2020-09-25T04:35:23.293Z ::1 - POST /api/users/login HTTP/1.1 200 149 - 4716.317 ms
+info: 2020-09-25T04:35:23.464Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T04:35:23.467Z ::1 - GET /api/users/me HTTP/1.1 200 36 - 100.810 ms
+info: 2020-09-25T05:02:09.834Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:02:09.849Z ::1 - GET /api/users/me HTTP/1.1 304 - - 1524.171 ms
+info: 2020-09-25T05:04:12.501Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:04:12.503Z ::1 - GET /api/users/me HTTP/1.1 304 - - 160.220 ms
+info: 2020-09-25T05:04:17.597Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:04:17.600Z ::1 - GET /api/users/me HTTP/1.1 304 - - 18.668 ms
+info: 2020-09-25T05:04:48.605Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:04:48.606Z ::1 - GET /api/users/me HTTP/1.1 304 - - 205.585 ms
+info: 2020-09-25T05:05:10.733Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:05:10.736Z ::1 - GET /api/users/me HTTP/1.1 304 - - 126.938 ms
+info: 2020-09-25T05:06:43.076Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:06:43.078Z ::1 - GET /api/users/me HTTP/1.1 304 - - 132.484 ms
+info: 2020-09-25T05:08:19.092Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:08:19.094Z ::1 - GET /api/users/me HTTP/1.1 304 - - 86.626 ms
+info: 2020-09-25T05:14:45.989Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:14:45.990Z ::1 - GET /api/users/me HTTP/1.1 304 - - 887.364 ms
+info: 2020-09-25T05:14:58.950Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:14:58.964Z ::1 - GET /api/users/me HTTP/1.1 304 - - 431.808 ms
+info: 2020-09-25T05:15:40.497Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:15:40.519Z ::1 - GET /api/users/me HTTP/1.1 304 - - 2788.594 ms
+info: 2020-09-25T05:18:08.433Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T05:18:08.450Z ::1 - GET /api/users/me HTTP/1.1 304 - - 821.466 ms
+info: 2020-09-25T05:29:53.854Z Usuario creado correctamente
+info: 2020-09-25T05:29:54.012Z ::1 - POST /api/users/signup HTTP/1.1 201 115 - 10908.742 ms
+info: 2020-09-25T17:22:39.577Z Informando en el servidor
+info: 2020-09-25T19:19:42.322Z ::1 - GET /api/banners HTTP/1.1 200 2 - 2803.421 ms
+info: 2020-09-25T19:19:42.363Z ::1 - GET /api/banners HTTP/1.1 304 - - 37.287 ms
+info: 2020-09-25T19:19:53.022Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+error: 2020-09-25T19:19:53.796Z No se pudo crear el banner Field 'id' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'id' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'id' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"],"stack":"SequelizeDatabaseError: Field 'id' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T19:19:53.799Z ::1 - POST /api/banners/ HTTP/1.1 500 690 - 1269.114 ms
+info: 2020-09-25T19:19:53.858Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.589 ms
+info: 2020-09-25T19:30:44.010Z Informando en el servidor
+info: 2020-09-25T19:31:03.610Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+error: 2020-09-25T19:31:03.831Z No se pudo crear el banner Field 'id' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'id' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'id' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"],"stack":"SequelizeDatabaseError: Field 'id' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T19:31:03.890Z ::1 - POST /api/banners/ HTTP/1.1 500 690 - 514.764 ms
+info: 2020-09-25T19:31:03.900Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.618 ms
+info: 2020-09-25T19:32:06.600Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+error: 2020-09-25T19:32:06.669Z No se pudo crear el banner Field 'image' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'image' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'image' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"],"stack":"SequelizeDatabaseError: Field 'image' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T19:32:06.718Z ::1 - POST /api/banners/ HTTP/1.1 500 696 - 132.129 ms
+info: 2020-09-25T19:32:06.747Z ::1 - GET /api/banners HTTP/1.1 304 - - 8.122 ms
+info: 2020-09-25T19:33:49.227Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.844 ms
+info: 2020-09-25T19:33:49.804Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.680 ms
+info: 2020-09-25T19:34:00.440Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+error: 2020-09-25T19:34:00.560Z No se pudo crear el banner Field 'image' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'image' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'image' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"],"stack":"SequelizeDatabaseError: Field 'image' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T19:34:00.562Z ::1 - POST /api/banners/ HTTP/1.1 500 696 - 145.900 ms
+info: 2020-09-25T19:34:00.655Z ::1 - GET /api/banners HTTP/1.1 304 - - 42.156 ms
+info: 2020-09-25T19:37:03.942Z ::1 - GET /api/banners HTTP/1.1 304 - - 38.218 ms
+info: 2020-09-25T19:37:04.384Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.043 ms
+info: 2020-09-25T19:37:11.030Z ::1 - GET /api/banners HTTP/1.1 304 - - 28.118 ms
+info: 2020-09-25T19:37:11.548Z ::1 - GET /api/banners HTTP/1.1 304 - - 18.272 ms
+info: 2020-09-25T19:37:22.052Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+error: 2020-09-25T19:37:22.345Z No se pudo crear el banner Field 'image' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'image' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'image' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"]},"sql":"INSERT INTO `banner` (`id`,`title`) VALUES (DEFAULT,?);","parameters":["Mejoramos y fortalecemos tus sistemas de gestión"],"stack":"SequelizeDatabaseError: Field 'image' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T19:37:22.348Z ::1 - POST /api/banners/ HTTP/1.1 500 696 - 362.032 ms
+info: 2020-09-25T19:37:22.434Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.312 ms
+info: 2020-09-25T19:42:08.797Z Informando en el servidor
+info: 2020-09-25T19:44:17.047Z Informando en el servidor
+info: 2020-09-25T19:44:33.465Z Informando en el servidor
+info: 2020-09-25T19:44:56.733Z Informando en el servidor
+info: 2020-09-25T19:45:31.840Z Informando en el servidor
+info: 2020-09-25T19:45:37.103Z Informando en el servidor
+info: 2020-09-25T19:45:51.182Z Informando en el servidor
+info: 2020-09-25T19:46:06.607Z ::1 - GET /api/banners HTTP/1.1 304 - - 521.372 ms
+info: 2020-09-25T19:46:06.825Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.040 ms
+info: 2020-09-25T19:46:34.901Z ::1 - GET /api/banners HTTP/1.1 304 - - 370.333 ms
+info: 2020-09-25T19:46:35.355Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.796 ms
+info: 2020-09-25T19:47:33.067Z ::1 - GET /api/banners HTTP/1.1 304 - - 32.318 ms
+info: 2020-09-25T19:47:33.513Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.802 ms
+error: 2020-09-25T19:47:45.500Z No se pudo crear el banner Field 'title' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/0e6811b8-ee17-4c63-8be0-f72ac97d8737.jpg"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/0e6811b8-ee17-4c63-8be0-f72ac97d8737.jpg"]},"sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/0e6811b8-ee17-4c63-8be0-f72ac97d8737.jpg"],"stack":"SequelizeDatabaseError: Field 'title' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T19:47:45.504Z ::1 - POST /api/banners/upload HTTP/1.1 500 708 - 432.624 ms
+info: 2020-09-25T19:47:45.581Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.985 ms
+info: 2020-09-25T19:50:18.037Z Informando en el servidor
+error: 2020-09-25T19:50:24.126Z No se pudo crear el banner Field 'title' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/d98c260a-d07b-435b-8b17-0f8b0d3dedf0.jpg"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/d98c260a-d07b-435b-8b17-0f8b0d3dedf0.jpg"]},"sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/d98c260a-d07b-435b-8b17-0f8b0d3dedf0.jpg"],"stack":"SequelizeDatabaseError: Field 'title' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T19:50:24.130Z ::1 - POST /api/banners/upload HTTP/1.1 500 708 - 858.583 ms
+info: 2020-09-25T19:50:24.268Z ::1 - GET /api/banners HTTP/1.1 304 - - 9.975 ms
+info: 2020-09-25T19:52:00.073Z ::1 - GET /api/banners HTTP/1.1 304 - - 118.345 ms
+info: 2020-09-25T19:52:00.502Z ::1 - GET /api/banners HTTP/1.1 304 - - 12.886 ms
+error: 2020-09-25T19:52:11.164Z No se pudo crear el banner Field 'title' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/e7066a2e-8898-438e-9ba5-821bfc5086ed.jpg"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/e7066a2e-8898-438e-9ba5-821bfc5086ed.jpg"]},"sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/e7066a2e-8898-438e-9ba5-821bfc5086ed.jpg"],"stack":"SequelizeDatabaseError: Field 'title' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T19:52:11.190Z ::1 - POST /api/banners/upload HTTP/1.1 500 708 - 145.827 ms
+info: 2020-09-25T19:52:11.295Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.647 ms
+info: 2020-09-25T19:52:57.750Z ::1 - GET /api/banners HTTP/1.1 304 - - 10.595 ms
+info: 2020-09-25T19:52:58.300Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.623 ms
+info: 2020-09-25T19:53:22.275Z ::1 - GET /api/banners HTTP/1.1 304 - - 25.115 ms
+info: 2020-09-25T19:53:22.777Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.310 ms
+error: 2020-09-25T19:53:36.255Z No se pudo crear el banner Field 'title' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/8ef66361-0f97-4c37-8eaf-ccc54ad293db.jpg"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/8ef66361-0f97-4c37-8eaf-ccc54ad293db.jpg"]},"sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/8ef66361-0f97-4c37-8eaf-ccc54ad293db.jpg"],"stack":"SequelizeDatabaseError: Field 'title' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T19:53:36.257Z ::1 - POST /api/banners/upload HTTP/1.1 500 708 - 114.588 ms
+info: 2020-09-25T19:53:36.320Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.684 ms
+info: 2020-09-25T20:00:03.943Z Informando en el servidor
+error: 2020-09-25T20:03:01.684Z No se pudo crear el banner Field 'title' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/cb070cbe-ad74-40d6-be06-ef7eba92e1fb.png"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/cb070cbe-ad74-40d6-be06-ef7eba92e1fb.png"]},"sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/cb070cbe-ad74-40d6-be06-ef7eba92e1fb.png"],"stack":"SequelizeDatabaseError: Field 'title' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T20:03:01.747Z ::1 - POST /api/banners/upload HTTP/1.1 500 708 - 777.370 ms
+info: 2020-09-25T20:03:01.819Z ::1 - GET /api/banners HTTP/1.1 304 - - 7.834 ms
+info: 2020-09-25T20:06:58.220Z ::1 - GET /api/banners HTTP/1.1 304 - - 13.248 ms
+info: 2020-09-25T20:06:58.713Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.215 ms
+info: 2020-09-25T20:07:57.298Z Informando en el servidor
+error: 2020-09-25T20:08:40.874Z No se pudo crear el banner Field 'title' doesn't have a default value {"name":"SequelizeDatabaseError","parent":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/0ea02512-5302-4cf3-a3b5-93d27a74e334.png"]},"original":{"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'title' doesn't have a default value","sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/0ea02512-5302-4cf3-a3b5-93d27a74e334.png"]},"sql":"INSERT INTO `banner` (`id`,`image`) VALUES (DEFAULT,?);","parameters":["/img/uploads/0ea02512-5302-4cf3-a3b5-93d27a74e334.png"],"stack":"SequelizeDatabaseError: Field 'title' doesn't have a default value\n    at Query.formatError (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:239:16)\n    at Query.run (C:\\Users\\Rhaegar Code\\Documents\\Proyectos\\consultory_backend\\colsultory-backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:54:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-09-25T20:08:40.939Z ::1 - POST /api/banners/upload HTTP/1.1 500 708 - 234.354 ms
+info: 2020-09-25T20:08:40.993Z ::1 - GET /api/banners HTTP/1.1 304 - - 30.014 ms
+info: 2020-09-25T20:10:22.169Z Informando en el servidor
+info: 2020-09-25T20:10:35.911Z Informando en el servidor
+info: 2020-09-25T20:12:01.464Z Informando en el servidor
+info: 2020-09-25T20:12:16.957Z ::1 - POST /api/banners/upload HTTP/1.1 200 91 - 617.966 ms
+info: 2020-09-25T20:12:17.134Z ::1 - GET /api/banners HTTP/1.1 200 93 - 12.864 ms
+info: 2020-09-25T20:13:23.248Z Informando en el servidor
+info: 2020-09-25T20:13:45.602Z ::1 - POST /api/banners/upload HTTP/1.1 200 91 - 326.811 ms
+info: 2020-09-25T20:13:45.747Z ::1 - GET /api/banners HTTP/1.1 200 185 - 12.169 ms
+info: 2020-09-25T20:15:30.385Z ::1 - POST /api/banners/upload HTTP/1.1 200 91 - 198.788 ms
+info: 2020-09-25T20:15:30.496Z ::1 - GET /api/banners HTTP/1.1 200 277 - 3.056 ms
+info: 2020-09-25T20:16:34.955Z ::1 - GET /api/banners HTTP/1.1 304 - - 301.455 ms
+info: 2020-09-25T20:16:35.274Z ::1 - GET /api/banners HTTP/1.1 304 - - 24.449 ms
+info: 2020-09-25T20:16:52.290Z ::1 - POST /api/banners/upload HTTP/1.1 200 91 - 177.005 ms
+info: 2020-09-25T20:16:52.423Z ::1 - GET /api/banners HTTP/1.1 200 369 - 42.223 ms
+info: 2020-09-25T20:19:07.889Z ::1 - GET /api/banners HTTP/1.1 304 - - 57.405 ms
+info: 2020-09-25T20:19:08.460Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.055 ms
+info: 2020-09-25T20:19:19.380Z ::1 - POST /api/banners/upload HTTP/1.1 200 91 - 293.518 ms
+info: 2020-09-25T20:19:19.473Z ::1 - GET /api/banners HTTP/1.1 200 461 - 2.521 ms
+info: 2020-09-25T20:23:26.558Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.454 ms
+info: 2020-09-25T20:23:27.031Z ::1 - GET /api/banners HTTP/1.1 304 - - 7.359 ms
+info: 2020-09-25T20:23:39.157Z ::1 - POST /api/banners/upload HTTP/1.1 200 91 - 183.906 ms
+info: 2020-09-25T20:23:39.297Z ::1 - GET /api/banners HTTP/1.1 200 553 - 4.611 ms
+info: 2020-09-25T20:31:36.378Z ::1 - GET /api/banners HTTP/1.1 304 - - 45.161 ms
+info: 2020-09-25T20:31:36.969Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.689 ms
+info: 2020-09-25T20:33:07.020Z Informando en el servidor
+info: 2020-09-25T20:33:32.072Z ::1 - POST /api/banners/upload HTTP/1.1 200 87 - 215.015 ms
+info: 2020-09-25T20:33:32.241Z ::1 - GET /api/banners HTTP/1.1 200 641 - 15.320 ms
+info: 2020-09-25T20:34:37.005Z Informando en el servidor
+info: 2020-09-25T20:34:56.576Z ::1 - POST /api/banners/upload HTTP/1.1 200 128 - 635.441 ms
+info: 2020-09-25T20:34:56.715Z ::1 - GET /api/banners HTTP/1.1 200 770 - 11.050 ms
+info: 2020-09-25T20:36:34.347Z ::1 - GET /api/banners HTTP/1.1 304 - - 50.411 ms
+info: 2020-09-25T20:36:34.923Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.735 ms
+info: 2020-09-25T20:37:01.126Z ::1 - GET /api/banners HTTP/1.1 304 - - 7.137 ms
+info: 2020-09-25T20:37:01.637Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.885 ms
+info: 2020-09-25T20:37:12.299Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.603 ms
+info: 2020-09-25T20:37:12.779Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.318 ms
+info: 2020-09-25T20:39:04.118Z ::1 - GET /api/banners HTTP/1.1 304 - - 24.114 ms
+info: 2020-09-25T20:39:04.630Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.683 ms
+info: 2020-09-25T20:39:42.798Z ::1 - GET /api/banners HTTP/1.1 304 - - 38.594 ms
+info: 2020-09-25T20:39:43.329Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.623 ms
+info: 2020-09-25T20:40:18.187Z ::1 - GET /api/banners HTTP/1.1 304 - - 7.789 ms
+info: 2020-09-25T20:40:18.723Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.674 ms
+info: 2020-09-25T20:40:31.322Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.961 ms
+info: 2020-09-25T20:40:33.491Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.829 ms
+info: 2020-09-25T20:40:40.401Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.870 ms
+info: 2020-09-25T20:41:22.764Z ::1 - GET /api/banners HTTP/1.1 304 - - 8.210 ms
+info: 2020-09-25T20:41:23.278Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.499 ms
+info: 2020-09-25T20:41:39.602Z ::1 - GET /api/banners HTTP/1.1 200 770 - 6.177 ms
+info: 2020-09-25T20:41:40.065Z ::1 - GET /api/banners HTTP/1.1 200 770 - 2.864 ms
+info: 2020-09-25T20:43:10.542Z ::1 - GET /api/banners HTTP/1.1 200 770 - 47.330 ms
+info: 2020-09-25T20:43:25.698Z ::1 - GET /api/banners HTTP/1.1 304 - - 25.528 ms
+info: 2020-09-25T20:44:34.911Z ::1 - GET /api/banners HTTP/1.1 200 770 - 9.175 ms
+info: 2020-09-25T20:46:09.121Z ::1 - GET /api/banners HTTP/1.1 304 - - 168.640 ms
+info: 2020-09-25T20:47:04.346Z ::1 - GET /api/banners HTTP/1.1 304 - - 36.832 ms
+info: 2020-09-25T20:48:06.929Z ::1 - GET /api/banners HTTP/1.1 304 - - 37.356 ms
+info: 2020-09-25T20:48:07.453Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.894 ms
+info: 2020-09-25T20:48:34.956Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.675 ms
+info: 2020-09-25T20:48:35.422Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.563 ms
+info: 2020-09-25T20:49:15.154Z ::1 - GET /api/banners HTTP/1.1 304 - - 15.727 ms
+info: 2020-09-25T20:49:15.957Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.118 ms
+info: 2020-09-25T21:03:50.405Z ::1 - GET /img/uploads/a5aebe5e-82c7-4059-9dc0-b2d074eb1de1.png HTTP/1.1 404 191 - 4.332 ms
+info: 2020-09-25T21:03:50.428Z ::1 - GET / HTTP/1.1 404 139 - 16.344 ms
+info: 2020-09-25T21:04:02.851Z ::1 - GET /api/banners HTTP/1.1 304 - - 98.076 ms
+info: 2020-09-25T21:04:03.197Z ::1 - GET /api/banners HTTP/1.1 304 - - 7.748 ms
+info: 2020-09-25T21:04:04.452Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.134 ms
+info: 2020-09-25T21:04:04.985Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.447 ms
+info: 2020-09-25T21:04:46.530Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:04:46.533Z ::1 - GET /api/users/me HTTP/1.1 200 36 - 163.337 ms
+info: 2020-09-25T21:04:46.646Z ::1 - GET /api/banners HTTP/1.1 304 - - 8.678 ms
+info: 2020-09-25T21:04:46.787Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:04:46.835Z ::1 - GET /api/users/me HTTP/1.1 304 - - 98.269 ms
+info: 2020-09-25T21:04:47.134Z ::1 - GET /api/banners HTTP/1.1 304 - - 31.977 ms
+info: 2020-09-25T21:04:48.655Z ::1 - GET /api/banners HTTP/1.1 304 - - 17.345 ms
+info: 2020-09-25T21:04:48.667Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:04:48.669Z ::1 - GET /api/users/me HTTP/1.1 200 36 - 31.144 ms
+info: 2020-09-25T21:04:48.741Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.383 ms
+info: 2020-09-25T21:05:38.832Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:05:38.834Z ::1 - GET /api/users/me HTTP/1.1 304 - - 40.851 ms
+info: 2020-09-25T21:05:38.973Z ::1 - GET /api/banners HTTP/1.1 304 - - 32.657 ms
+info: 2020-09-25T21:05:38.975Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:05:38.977Z ::1 - GET /api/users/me HTTP/1.1 304 - - 34.950 ms
+info: 2020-09-25T21:05:39.284Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.261 ms
+info: 2020-09-25T21:05:40.973Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.182 ms
+info: 2020-09-25T21:05:41.064Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:05:41.076Z ::1 - GET /api/users/me HTTP/1.1 304 - - 89.796 ms
+info: 2020-09-25T21:05:41.139Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.283 ms
+info: 2020-09-25T21:06:36.027Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:06:36.069Z ::1 - GET /api/users/me HTTP/1.1 304 - - 43.399 ms
+info: 2020-09-25T21:06:36.539Z ::1 - GET /api/banners HTTP/1.1 304 - - 23.011 ms
+info: 2020-09-25T21:06:36.541Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:06:36.613Z ::1 - GET /api/users/me HTTP/1.1 304 - - 32.707 ms
+info: 2020-09-25T21:06:36.923Z ::1 - GET /api/banners HTTP/1.1 304 - - 68.210 ms
+info: 2020-09-25T21:06:39.189Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.492 ms
+info: 2020-09-25T21:06:39.243Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:06:39.270Z ::1 - GET /api/users/me HTTP/1.1 304 - - 25.353 ms
+info: 2020-09-25T21:06:39.550Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.086 ms
+info: 2020-09-25T21:06:43.360Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.035 ms
+info: 2020-09-25T21:06:43.382Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:06:43.425Z ::1 - GET /api/users/me HTTP/1.1 304 - - 22.246 ms
+info: 2020-09-25T21:06:43.637Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.103 ms
+info: 2020-09-25T21:09:42.527Z ::1 - GET /api/banners HTTP/1.1 304 - - 30.665 ms
+info: 2020-09-25T21:09:42.529Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:09:42.545Z ::1 - GET /api/users/me HTTP/1.1 304 - - 43.183 ms
+info: 2020-09-25T21:09:42.740Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.268 ms
+info: 2020-09-25T21:10:00.747Z ::1 - GET /api/banners HTTP/1.1 304 - - 9.018 ms
+info: 2020-09-25T21:11:28.561Z Informando en el servidor
+info: 2020-09-25T21:12:14.241Z ::1 - POST /api/banners/upload HTTP/1.1 200 149 - 845.300 ms
+info: 2020-09-25T21:12:14.363Z ::1 - GET /api/banners HTTP/1.1 200 920 - 12.051 ms
+info: 2020-09-25T21:12:30.257Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:12:30.259Z ::1 - GET /api/users/me HTTP/1.1 304 - - 31.193 ms
+info: 2020-09-25T21:12:30.278Z ::1 - GET /api/banners HTTP/1.1 304 - - 48.976 ms
+info: 2020-09-25T21:12:30.619Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.261 ms
+info: 2020-09-25T21:12:30.631Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 200 595045 - 3.262 ms
+info: 2020-09-25T21:12:55.706Z ::1 - POST /api/banners/upload HTTP/1.1 200 133 - 243.627 ms
+info: 2020-09-25T21:12:55.853Z ::1 - GET /api/banners HTTP/1.1 200 1054 - 3.873 ms
+info: 2020-09-25T21:13:20.779Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:13:21.349Z El banner fue eliminado
+info: 2020-09-25T21:13:21.373Z ::1 - DELETE /api/banners/8 HTTP/1.1 200 36 - 587.691 ms
+info: 2020-09-25T21:13:22.001Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:13:22.004Z ::1 - GET /api/users/me HTTP/1.1 304 - - 40.098 ms
+info: 2020-09-25T21:13:22.029Z ::1 - GET /api/banners HTTP/1.1 200 925 - 44.758 ms
+info: 2020-09-25T21:13:22.110Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.922 ms
+info: 2020-09-25T21:13:22.129Z ::1 - GET /api/banners HTTP/1.1 304 - - 11.321 ms
+info: 2020-09-25T21:13:22.154Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 200 2298465 - 1.980 ms
+info: 2020-09-25T21:13:35.175Z ::1 - GET /api/banners HTTP/1.1 304 - - 8.297 ms
+info: 2020-09-25T21:14:15.271Z ::1 - GET /api/banners HTTP/1.1 304 - - 36.704 ms
+info: 2020-09-25T21:14:15.273Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:14:15.275Z ::1 - GET /api/users/me HTTP/1.1 304 - - 42.663 ms
+info: 2020-09-25T21:14:15.593Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:14:15.657Z ::1 - GET /api/users/me HTTP/1.1 304 - - 159.090 ms
+info: 2020-09-25T21:14:15.707Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.522 ms
+info: 2020-09-25T21:14:15.708Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 3.242 ms
+info: 2020-09-25T21:14:15.852Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.664 ms
+info: 2020-09-25T21:14:18.004Z ::1 - GET /api/banners HTTP/1.1 200 925 - 16.525 ms
+info: 2020-09-25T21:14:18.017Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:14:18.026Z ::1 - GET /api/users/me HTTP/1.1 304 - - 31.212 ms
+info: 2020-09-25T21:14:18.106Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 200 595045 - 1.688 ms
+info: 2020-09-25T21:14:18.123Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 200 2298465 - 1.533 ms
+info: 2020-09-25T21:14:18.132Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.136 ms
+info: 2020-09-25T21:14:26.729Z ::1 - GET /api/banners HTTP/1.1 304 - - 7.567 ms
+info: 2020-09-25T21:14:32.852Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:14:33.053Z El banner fue eliminado
+info: 2020-09-25T21:14:33.111Z ::1 - DELETE /api/banners/7 HTTP/1.1 200 36 - 225.852 ms
+info: 2020-09-25T21:14:33.795Z ::1 - GET /api/banners HTTP/1.1 200 837 - 5.103 ms
+info: 2020-09-25T21:14:33.800Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:14:33.814Z ::1 - GET /api/users/me HTTP/1.1 304 - - 5.037 ms
+info: 2020-09-25T21:14:33.911Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.693 ms
+info: 2020-09-25T21:14:33.927Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 0.681 ms
+info: 2020-09-25T21:14:33.995Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.405 ms
+info: 2020-09-25T21:14:43.001Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.798 ms
+info: 2020-09-25T21:14:45.603Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:14:45.770Z El banner fue eliminado
+info: 2020-09-25T21:14:45.772Z ::1 - DELETE /api/banners/5 HTTP/1.1 200 36 - 218.917 ms
+info: 2020-09-25T21:14:46.346Z ::1 - GET /api/banners HTTP/1.1 200 745 - 4.875 ms
+info: 2020-09-25T21:14:46.353Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:14:46.355Z ::1 - GET /api/users/me HTTP/1.1 304 - - 20.912 ms
+info: 2020-09-25T21:14:46.607Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.596 ms
+info: 2020-09-25T21:14:46.625Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 0.750 ms
+info: 2020-09-25T21:14:46.722Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.060 ms
+info: 2020-09-25T21:14:48.806Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.762 ms
+info: 2020-09-25T21:14:52.024Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:14:52.170Z El banner fue eliminado
+info: 2020-09-25T21:14:52.209Z ::1 - DELETE /api/banners/4 HTTP/1.1 200 36 - 185.930 ms
+info: 2020-09-25T21:14:52.949Z ::1 - GET /api/banners HTTP/1.1 200 653 - 2.884 ms
+info: 2020-09-25T21:14:52.969Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:14:52.970Z ::1 - GET /api/users/me HTTP/1.1 304 - - 18.966 ms
+info: 2020-09-25T21:14:53.063Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.628 ms
+info: 2020-09-25T21:14:53.078Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 0.459 ms
+info: 2020-09-25T21:14:53.120Z ::1 - GET /api/banners HTTP/1.1 304 - - 11.793 ms
+info: 2020-09-25T21:14:59.453Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.199 ms
+info: 2020-09-25T21:15:02.566Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:15:02.741Z El banner fue eliminado
+info: 2020-09-25T21:15:02.808Z ::1 - DELETE /api/banners/3 HTTP/1.1 200 36 - 214.247 ms
+info: 2020-09-25T21:15:03.422Z ::1 - GET /api/banners HTTP/1.1 200 561 - 3.853 ms
+info: 2020-09-25T21:15:03.441Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:15:03.443Z ::1 - GET /api/users/me HTTP/1.1 304 - - 19.052 ms
+info: 2020-09-25T21:15:03.626Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.615 ms
+info: 2020-09-25T21:15:03.642Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 0.632 ms
+info: 2020-09-25T21:15:03.793Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.996 ms
+info: 2020-09-25T21:15:06.722Z ::1 - GET /api/banners HTTP/1.1 304 - - 29.398 ms
+info: 2020-09-25T21:15:09.447Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:15:09.622Z El banner fue eliminado
+info: 2020-09-25T21:15:09.671Z ::1 - DELETE /api/banners/6 HTTP/1.1 200 36 - 253.827 ms
+info: 2020-09-25T21:15:10.322Z ::1 - GET /api/banners HTTP/1.1 200 469 - 4.024 ms
+info: 2020-09-25T21:15:10.331Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:15:10.332Z ::1 - GET /api/users/me HTTP/1.1 304 - - 7.844 ms
+info: 2020-09-25T21:15:10.442Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.610 ms
+info: 2020-09-25T21:15:10.457Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 0.706 ms
+info: 2020-09-25T21:15:10.549Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.507 ms
+info: 2020-09-25T21:15:13.220Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.034 ms
+info: 2020-09-25T21:15:19.203Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:15:19.774Z El banner fue eliminado
+info: 2020-09-25T21:15:19.795Z ::1 - DELETE /api/banners/1 HTTP/1.1 200 36 - 591.565 ms
+info: 2020-09-25T21:15:20.894Z ::1 - GET /api/banners HTTP/1.1 200 377 - 21.955 ms
+info: 2020-09-25T21:15:20.899Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:15:20.901Z ::1 - GET /api/users/me HTTP/1.1 304 - - 27.824 ms
+info: 2020-09-25T21:15:21.067Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.502 ms
+info: 2020-09-25T21:15:21.085Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 3.218 ms
+info: 2020-09-25T21:15:21.093Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.055 ms
+info: 2020-09-25T21:15:24.246Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.485 ms
+info: 2020-09-25T21:15:27.201Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:15:27.650Z El banner fue eliminado
+info: 2020-09-25T21:15:27.703Z ::1 - DELETE /api/banners/2 HTTP/1.1 200 36 - 473.968 ms
+info: 2020-09-25T21:15:28.276Z ::1 - GET /api/banners HTTP/1.1 200 285 - 17.173 ms
+info: 2020-09-25T21:15:28.277Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:15:28.279Z ::1 - GET /api/users/me HTTP/1.1 304 - - 19.608 ms
+info: 2020-09-25T21:15:28.356Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.039 ms
+info: 2020-09-25T21:15:28.359Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 2.677 ms
+info: 2020-09-25T21:15:28.461Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.529 ms
+info: 2020-09-25T21:16:18.096Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.214 ms
+info: 2020-09-25T21:16:29.368Z ::1 - POST /api/banners/upload HTTP/1.1 200 126 - 627.075 ms
+info: 2020-09-25T21:16:29.463Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 200 333874 - 1.851 ms
+info: 2020-09-25T21:16:29.493Z ::1 - GET /api/banners HTTP/1.1 200 412 - 22.095 ms
+info: 2020-09-25T21:19:29.721Z ::1 - GET /api/banners HTTP/1.1 200 412 - 4.761 ms
+info: 2020-09-25T21:19:29.735Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 200 333874 - 1.481 ms
+info: 2020-09-25T21:19:29.739Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 200 595045 - 2.320 ms
+info: 2020-09-25T21:19:29.769Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 200 2298465 - 2.232 ms
+info: 2020-09-25T21:19:50.527Z ::1 - GET /api/banners HTTP/1.1 304 - - 33.486 ms
+info: 2020-09-25T21:34:56.396Z ::1 - GET /api/banners HTTP/1.1 304 - - 28.435 ms
+info: 2020-09-25T21:36:28.538Z ::1 - GET /api/banners HTTP/1.1 304 - - 33.926 ms
+info: 2020-09-25T21:36:28.540Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-25T21:36:28.542Z ::1 - GET /api/users/me HTTP/1.1 304 - - 52.200 ms
+info: 2020-09-25T21:36:28.645Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.602 ms
+info: 2020-09-25T21:36:28.664Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 3.277 ms
+info: 2020-09-25T21:36:28.667Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 17.411 ms
+info: 2020-09-25T21:36:28.716Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.692 ms
+info: 2020-09-25T21:37:08.474Z ::1 - POST /api/banners/upload HTTP/1.1 200 113 - 382.625 ms
+info: 2020-09-25T21:37:08.558Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 200 333874 - 0.846 ms
+info: 2020-09-25T21:37:08.592Z ::1 - GET /api/banners HTTP/1.1 200 526 - 10.379 ms
+info: 2020-09-25T21:37:22.663Z ::1 - GET /api/banners HTTP/1.1 304 - - 79.745 ms
+info: 2020-09-25T21:37:49.578Z ::1 - GET /api/banners HTTP/1.1 304 - - 29.360 ms
+info: 2020-09-25T21:37:55.459Z ::1 - GET /api/banners HTTP/1.1 304 - - 9.744 ms
+info: 2020-09-25T21:38:49.083Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.807 ms
+info: 2020-09-26T00:31:03.313Z ::1 - GET /api/banners HTTP/1.1 304 - - 66.675 ms
+info: 2020-09-26T00:31:03.397Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T00:31:03.482Z ::1 - GET /api/users/me HTTP/1.1 304 - - 144.237 ms
+info: 2020-09-26T00:31:04.572Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.309 ms
+info: 2020-09-26T00:31:04.591Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 3.498 ms
+info: 2020-09-26T00:31:04.594Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 22.201 ms
+info: 2020-09-26T00:31:04.597Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 200 333874 - 27.838 ms
+info: 2020-09-26T00:31:04.642Z ::1 - GET /api/banners HTTP/1.1 304 - - 29.334 ms
+info: 2020-09-26T00:32:18.905Z ::1 - POST /api/banners/upload HTTP/1.1 200 123 - 556.140 ms
+info: 2020-09-26T00:32:18.991Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 200 595045 - 0.921 ms
+info: 2020-09-26T00:32:19.013Z ::1 - GET /api/banners HTTP/1.1 200 650 - 3.133 ms
+info: 2020-09-26T00:37:33.608Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T00:37:33.610Z ::1 - GET /api/users/me HTTP/1.1 304 - - 8.277 ms
+info: 2020-09-26T00:37:33.916Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.397 ms
+info: 2020-09-26T00:37:33.942Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.013 ms
+info: 2020-09-26T00:37:33.949Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 0.497 ms
+info: 2020-09-26T00:37:33.959Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.520 ms
+info: 2020-09-26T00:37:33.964Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.508 ms
+info: 2020-09-26T00:37:33.968Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.604 ms
+info: 2020-09-26T00:37:42.236Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.713 ms
+info: 2020-09-26T00:41:35.803Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T00:41:35.805Z ::1 - GET /api/users/me HTTP/1.1 304 - - 93.258 ms
+info: 2020-09-26T00:41:36.059Z ::1 - GET /api/banners HTTP/1.1 304 - - 10.363 ms
+info: 2020-09-26T00:41:36.135Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 3.814 ms
+info: 2020-09-26T00:41:36.153Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 9.383 ms
+info: 2020-09-26T00:41:36.155Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 25.821 ms
+info: 2020-09-26T00:41:36.157Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 26.744 ms
+info: 2020-09-26T00:41:36.158Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 27.875 ms
+info: 2020-09-26T00:41:46.098Z ::1 - OPTIONS /api/banners/12 HTTP/1.1 200 19 - 318.967 ms
+info: 2020-09-26T00:43:28.784Z Informando en el servidor
+info: 2020-09-26T00:44:28.073Z ::1 - GET /api/banners HTTP/1.1 304 - - 551.146 ms
+info: 2020-09-26T00:44:28.076Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T00:44:28.078Z ::1 - GET /api/users/me HTTP/1.1 304 - - 563.677 ms
+info: 2020-09-26T00:44:28.124Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 5.760 ms
+info: 2020-09-26T00:44:28.139Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 6.680 ms
+info: 2020-09-26T00:44:28.141Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 18.572 ms
+info: 2020-09-26T00:44:28.145Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.166 ms
+info: 2020-09-26T00:44:28.147Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 1.998 ms
+info: 2020-09-26T00:44:28.214Z ::1 - GET /api/banners HTTP/1.1 304 - - 41.099 ms
+info: 2020-09-26T00:44:31.813Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.985 ms
+info: 2020-09-26T00:44:34.473Z ::1 - GET /api/banners/13 HTTP/1.1 200 123 - 4.726 ms
+info: 2020-09-26T00:55:11.351Z ::1 - GET /api/banners/13 HTTP/1.1 304 - - 46.609 ms
+info: 2020-09-26T00:55:11.375Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T00:55:11.377Z ::1 - GET /api/users/me HTTP/1.1 304 - - 70.956 ms
+info: 2020-09-26T00:55:11.666Z ::1 - GET /api/banners HTTP/1.1 304 - - 24.247 ms
+info: 2020-09-26T00:55:11.751Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.287 ms
+info: 2020-09-26T00:55:11.766Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 3.137 ms
+info: 2020-09-26T00:55:11.768Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 17.904 ms
+info: 2020-09-26T00:55:11.770Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 19.644 ms
+info: 2020-09-26T00:55:11.774Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.909 ms
+info: 2020-09-26T00:55:18.808Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.311 ms
+info: 2020-09-26T00:55:21.788Z ::1 - GET /api/banners/10 HTTP/1.1 200 133 - 4.200 ms
+info: 2020-09-26T00:55:28.034Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T00:55:28.307Z El banner se ha actualizado correctamente
+info: 2020-09-26T00:55:28.339Z ::1 - PUT /api/banners/10 HTTP/1.1 200 3 - 298.880 ms
+info: 2020-09-26T00:55:28.403Z ::1 - GET /api/banners HTTP/1.1 200 656 - 2.625 ms
+info: 2020-09-26T00:56:57.283Z ::1 - GET /api/banners/10 HTTP/1.1 200 139 - 92.469 ms
+info: 2020-09-26T00:58:36.108Z ::1 - GET /api/banners/10 HTTP/1.1 304 - - 7.891 ms
+info: 2020-09-26T00:58:36.179Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T00:58:36.182Z ::1 - GET /api/users/me HTTP/1.1 304 - - 70.545 ms
+info: 2020-09-26T00:58:36.365Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.243 ms
+info: 2020-09-26T00:58:36.433Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.621 ms
+info: 2020-09-26T00:58:36.486Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 3.463 ms
+info: 2020-09-26T00:58:36.489Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 56.215 ms
+info: 2020-09-26T00:58:36.499Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 58.486 ms
+info: 2020-09-26T00:58:36.502Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 68.669 ms
+info: 2020-09-26T00:59:24.437Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.603 ms
+info: 2020-09-26T00:59:24.458Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 1.524 ms
+info: 2020-09-26T00:59:24.477Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 20.121 ms
+info: 2020-09-26T00:59:24.527Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 40.388 ms
+info: 2020-09-26T00:59:24.544Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 49.706 ms
+info: 2020-09-26T00:59:24.564Z ::1 - GET /api/banners HTTP/1.1 304 - - 18.672 ms
+info: 2020-09-26T00:59:27.187Z ::1 - GET /api/banners/10 HTTP/1.1 304 - - 7.562 ms
+info: 2020-09-26T00:59:35.167Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T00:59:35.180Z No se logro editar el banner
+info: 2020-09-26T00:59:54.838Z ::1 - GET /api/banners HTTP/1.1 304 - - 11.417 ms
+info: 2020-09-26T01:01:35.149Z ::1 - PUT /api/banners/10 HTTP/1.1 - - - 48.040 ms
+info: 2020-09-26T01:01:35.194Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:01:35.196Z No se logro editar el banner
+info: 2020-09-26T01:03:01.140Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.300 ms
+info: 2020-09-26T01:03:05.157Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.536 ms
+info: 2020-09-26T01:03:06.290Z ::1 - GET /api/banners/9 HTTP/1.1 200 149 - 4.890 ms
+info: 2020-09-26T01:03:07.568Z ::1 - GET /api/banners HTTP/1.1 304 - - 7.419 ms
+info: 2020-09-26T01:03:11.139Z ::1 - GET /api/banners/10 HTTP/1.1 200 139 - 14.298 ms
+info: 2020-09-26T01:03:22.485Z ::1 - GET /api/banners/10 HTTP/1.1 200 139 - 28.268 ms
+info: 2020-09-26T01:03:28.557Z ::1 - PUT /api/banners/10 HTTP/1.1 - - - 45.554 ms
+info: 2020-09-26T01:03:29.321Z ::1 - GET /api/banners/10 HTTP/1.1 200 139 - 3.383 ms
+info: 2020-09-26T01:03:29.395Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:03:29.414Z ::1 - GET /api/users/me HTTP/1.1 304 - - 82.795 ms
+info: 2020-09-26T01:03:29.526Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.007 ms
+info: 2020-09-26T01:03:29.541Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.545 ms
+info: 2020-09-26T01:03:29.556Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 2.663 ms
+info: 2020-09-26T01:03:29.558Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 12.718 ms
+info: 2020-09-26T01:03:29.560Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 13.870 ms
+info: 2020-09-26T01:03:29.592Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.478 ms
+info: 2020-09-26T01:03:36.119Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.377 ms
+info: 2020-09-26T01:03:39.311Z ::1 - GET /api/banners/12 HTTP/1.1 200 113 - 3.684 ms
+info: 2020-09-26T01:04:30.676Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:04:30.677Z No se logro editar el banner
+info: 2020-09-26T01:04:36.050Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.278 ms
+info: 2020-09-26T01:04:36.198Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.145 ms
+info: 2020-09-26T01:04:41.701Z ::1 - PUT /api/banners/12 HTTP/1.1 - - - 20.743 ms
+info: 2020-09-26T01:04:42.253Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.386 ms
+info: 2020-09-26T01:04:42.258Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:04:42.260Z ::1 - GET /api/users/me HTTP/1.1 304 - - 4.623 ms
+info: 2020-09-26T01:04:42.367Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.739 ms
+info: 2020-09-26T01:04:42.380Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 2.302 ms
+info: 2020-09-26T01:04:42.382Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 15.097 ms
+info: 2020-09-26T01:04:42.387Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 2.088 ms
+info: 2020-09-26T01:04:42.388Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 2.612 ms
+info: 2020-09-26T01:04:42.486Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.555 ms
+info: 2020-09-26T01:04:49.089Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.992 ms
+info: 2020-09-26T01:04:50.873Z ::1 - GET /api/banners/12 HTTP/1.1 200 113 - 5.340 ms
+info: 2020-09-26T01:04:54.863Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.694 ms
+info: 2020-09-26T01:04:56.382Z ::1 - GET /api/banners/10 HTTP/1.1 304 - - 4.087 ms
+info: 2020-09-26T01:05:02.938Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:05:03.306Z El banner se ha actualizado correctamente
+info: 2020-09-26T01:05:03.355Z ::1 - PUT /api/banners/10 HTTP/1.1 200 3 - 392.044 ms
+info: 2020-09-26T01:05:03.415Z ::1 - GET /api/banners HTTP/1.1 200 659 - 2.508 ms
+info: 2020-09-26T01:05:05.688Z ::1 - GET /api/banners/10 HTTP/1.1 200 142 - 25.808 ms
+info: 2020-09-26T01:07:16.122Z ::1 - GET /api/banners/10 HTTP/1.1 304 - - 21.024 ms
+info: 2020-09-26T01:07:16.123Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:07:16.144Z ::1 - GET /api/users/me HTTP/1.1 304 - - 23.369 ms
+info: 2020-09-26T01:07:16.371Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.427 ms
+info: 2020-09-26T01:07:16.402Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.542 ms
+info: 2020-09-26T01:07:16.455Z ::1 - GET /img/uploads/1c2b8b9e-a5e3-4d92-8c26-2373a4769e87 HTTP/1.1 304 - - 0.582 ms
+info: 2020-09-26T01:07:16.492Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 1.269 ms
+info: 2020-09-26T01:07:16.502Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 35.550 ms
+info: 2020-09-26T01:07:16.527Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 47.684 ms
+info: 2020-09-26T01:07:26.273Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.064 ms
+info: 2020-09-26T01:07:27.721Z ::1 - GET /api/banners/10 HTTP/1.1 304 - - 31.308 ms
+info: 2020-09-26T01:07:33.941Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:07:34.124Z El banner se ha actualizado correctamente
+info: 2020-09-26T01:07:34.208Z ::1 - PUT /api/banners/10 HTTP/1.1 200 3 - 198.089 ms
+info: 2020-09-26T01:07:34.263Z ::1 - GET /api/banners HTTP/1.1 200 636 - 2.801 ms
+info: 2020-09-26T01:07:34.282Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 3.396 ms
+info: 2020-09-26T01:07:54.070Z ::1 - GET /api/banners/10 HTTP/1.1 200 119 - 43.943 ms
+info: 2020-09-26T01:07:54.087Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 0.641 ms
+info: 2020-09-26T01:08:31.562Z ::1 - GET /api/banners/10 HTTP/1.1 304 - - 20.683 ms
+info: 2020-09-26T01:08:31.576Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:08:31.578Z ::1 - GET /api/users/me HTTP/1.1 304 - - 35.911 ms
+info: 2020-09-26T01:08:31.876Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.809 ms
+info: 2020-09-26T01:08:31.969Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.560 ms
+info: 2020-09-26T01:08:31.983Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 0.585 ms
+info: 2020-09-26T01:08:31.985Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.582 ms
+info: 2020-09-26T01:08:31.988Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.462 ms
+info: 2020-09-26T01:08:31.995Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.487 ms
+info: 2020-09-26T01:11:49.771Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.562 ms
+info: 2020-09-26T01:11:49.789Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 2.330 ms
+info: 2020-09-26T01:11:49.793Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.221 ms
+info: 2020-09-26T01:11:49.794Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 2.282 ms
+info: 2020-09-26T01:11:49.796Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 3.544 ms
+info: 2020-09-26T01:11:49.840Z ::1 - GET /api/banners HTTP/1.1 304 - - 27.291 ms
+info: 2020-09-26T01:12:07.382Z ::1 - GET /api/banners/10 HTTP/1.1 304 - - 7.331 ms
+info: 2020-09-26T01:12:07.395Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 0.852 ms
+info: 2020-09-26T01:12:30.651Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:12:30.655Z El banner se ha actualizado correctamente
+info: 2020-09-26T01:12:30.657Z ::1 - PUT /api/banners/10 HTTP/1.1 200 3 - 22.229 ms
+info: 2020-09-26T01:12:30.725Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 0.668 ms
+info: 2020-09-26T01:12:30.782Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.212 ms
+info: 2020-09-26T01:14:09.340Z ::1 - GET /api/banners/10 HTTP/1.1 200 119 - 8.298 ms
+info: 2020-09-26T01:14:09.345Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 1.468 ms
+info: 2020-09-26T01:14:14.769Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:14:14.773Z El banner se ha actualizado correctamente
+info: 2020-09-26T01:14:14.792Z ::1 - PUT /api/banners/10 HTTP/1.1 200 3 - 12.395 ms
+info: 2020-09-26T01:14:14.835Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 0.589 ms
+info: 2020-09-26T01:14:14.871Z ::1 - GET /api/banners HTTP/1.1 304 - - 18.089 ms
+info: 2020-09-26T01:15:33.107Z ::1 - GET /api/banners HTTP/1.1 304 - - 108.465 ms
+info: 2020-09-26T01:15:33.108Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:15:33.134Z ::1 - GET /api/users/me HTTP/1.1 304 - - 89.898 ms
+info: 2020-09-26T01:15:33.422Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.537 ms
+info: 2020-09-26T01:15:33.439Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 0.673 ms
+info: 2020-09-26T01:15:33.443Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 1.816 ms
+info: 2020-09-26T01:15:33.458Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 2.584 ms
+info: 2020-09-26T01:15:33.460Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 17.338 ms
+info: 2020-09-26T01:15:33.633Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.627 ms
+info: 2020-09-26T01:15:42.800Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 0.732 ms
+info: 2020-09-26T01:15:42.841Z ::1 - GET /api/banners HTTP/1.1 304 - - 8.626 ms
+info: 2020-09-26T01:15:44.088Z ::1 - GET /api/banners/10 HTTP/1.1 200 119 - 5.555 ms
+info: 2020-09-26T01:15:44.109Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 0.741 ms
+info: 2020-09-26T01:15:48.410Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:15:48.768Z El banner se ha actualizado correctamente
+info: 2020-09-26T01:15:48.821Z ::1 - PUT /api/banners/10 HTTP/1.1 200 3 - 378.651 ms
+info: 2020-09-26T01:15:48.855Z ::1 - GET /img/uploads/[object%20File] HTTP/1.1 404 166 - 0.652 ms
+info: 2020-09-26T01:15:48.904Z ::1 - GET /api/banners HTTP/1.1 200 635 - 14.740 ms
+info: 2020-09-26T01:15:48.926Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 0.434 ms
+info: 2020-09-26T01:17:20.410Z ::1 - GET /api/banners HTTP/1.1 304 - - 39.680 ms
+info: 2020-09-26T01:17:20.443Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:17:20.462Z ::1 - GET /api/users/me HTTP/1.1 304 - - 74.417 ms
+info: 2020-09-26T01:17:20.597Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.473 ms
+info: 2020-09-26T01:17:20.613Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.826 ms
+info: 2020-09-26T01:17:20.628Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.038 ms
+info: 2020-09-26T01:17:20.644Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 10.449 ms
+info: 2020-09-26T01:17:20.659Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 1.109 ms
+info: 2020-09-26T01:17:20.765Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.038 ms
+info: 2020-09-26T01:17:27.439Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 1.151 ms
+info: 2020-09-26T01:17:27.482Z ::1 - GET /api/banners HTTP/1.1 304 - - 9.478 ms
+info: 2020-09-26T01:17:28.569Z ::1 - GET /api/banners/10 HTTP/1.1 200 118 - 2.849 ms
+info: 2020-09-26T01:17:28.593Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 0.622 ms
+info: 2020-09-26T01:17:33.872Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:17:33.874Z El banner se ha actualizado correctamente
+info: 2020-09-26T01:17:33.876Z ::1 - PUT /api/banners/10 HTTP/1.1 200 3 - 63.444 ms
+info: 2020-09-26T01:17:33.942Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 0.584 ms
+info: 2020-09-26T01:17:33.968Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.817 ms
+info: 2020-09-26T01:17:39.004Z ::1 - GET /api/banners/10 HTTP/1.1 200 118 - 5.653 ms
+info: 2020-09-26T01:17:39.015Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 0.822 ms
+info: 2020-09-26T01:17:44.735Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:17:44.736Z El banner se ha actualizado correctamente
+info: 2020-09-26T01:17:44.737Z ::1 - PUT /api/banners/10 HTTP/1.1 200 3 - 39.647 ms
+info: 2020-09-26T01:17:44.787Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 1.558 ms
+info: 2020-09-26T01:17:44.838Z ::1 - GET /api/banners HTTP/1.1 304 - - 26.924 ms
+info: 2020-09-26T01:19:38.143Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.489 ms
+info: 2020-09-26T01:19:38.160Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:19:38.161Z ::1 - GET /api/users/me HTTP/1.1 304 - - 16.066 ms
+info: 2020-09-26T01:19:38.331Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.484 ms
+info: 2020-09-26T01:19:38.347Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.554 ms
+info: 2020-09-26T01:19:38.362Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 2.462 ms
+info: 2020-09-26T01:19:38.364Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 12.236 ms
+info: 2020-09-26T01:19:38.394Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 0.643 ms
+info: 2020-09-26T01:19:38.436Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.912 ms
+info: 2020-09-26T01:20:56.286Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.185 ms
+info: 2020-09-26T01:20:56.294Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:20:56.296Z ::1 - GET /api/users/me HTTP/1.1 304 - - 4.466 ms
+info: 2020-09-26T01:20:56.523Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.471 ms
+info: 2020-09-26T01:20:56.539Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.466 ms
+info: 2020-09-26T01:20:56.541Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.544 ms
+info: 2020-09-26T01:20:56.545Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 1.386 ms
+info: 2020-09-26T01:20:56.618Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 0.787 ms
+info: 2020-09-26T01:20:56.743Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.866 ms
+info: 2020-09-26T01:21:18.106Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.287 ms
+info: 2020-09-26T01:21:18.138Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:21:18.140Z ::1 - GET /api/users/me HTTP/1.1 304 - - 27.086 ms
+info: 2020-09-26T01:21:18.353Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.523 ms
+info: 2020-09-26T01:21:18.374Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.893 ms
+info: 2020-09-26T01:21:18.388Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.490 ms
+info: 2020-09-26T01:21:18.406Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.604 ms
+info: 2020-09-26T01:21:18.439Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 0.575 ms
+info: 2020-09-26T01:21:18.506Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.385 ms
+info: 2020-09-26T01:21:27.437Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.521 ms
+info: 2020-09-26T01:21:27.443Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:21:27.445Z ::1 - GET /api/users/me HTTP/1.1 304 - - 4.480 ms
+info: 2020-09-26T01:21:27.637Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.513 ms
+info: 2020-09-26T01:21:27.653Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.495 ms
+info: 2020-09-26T01:21:27.685Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.788 ms
+info: 2020-09-26T01:21:27.698Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.614 ms
+info: 2020-09-26T01:21:27.725Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 0.613 ms
+info: 2020-09-26T01:21:27.769Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.159 ms
+info: 2020-09-26T01:21:32.654Z ::1 - GET /img/uploads/Mountain.jpg HTTP/1.1 404 163 - 0.650 ms
+info: 2020-09-26T01:21:32.688Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.620 ms
+info: 2020-09-26T01:21:35.919Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:21:36.034Z El banner fue eliminado
+info: 2020-09-26T01:21:36.064Z ::1 - DELETE /api/banners/10 HTTP/1.1 200 36 - 140.074 ms
+info: 2020-09-26T01:21:36.740Z ::1 - GET /api/banners HTTP/1.1 200 516 - 3.547 ms
+info: 2020-09-26T01:21:36.745Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:21:36.747Z ::1 - GET /api/users/me HTTP/1.1 304 - - 20.104 ms
+info: 2020-09-26T01:21:37.011Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.716 ms
+info: 2020-09-26T01:21:37.026Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 1.088 ms
+info: 2020-09-26T01:21:37.044Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.866 ms
+info: 2020-09-26T01:21:37.046Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 15.727 ms
+info: 2020-09-26T01:21:37.127Z ::1 - GET /api/banners HTTP/1.1 304 - - 10.568 ms
+info: 2020-09-26T01:22:05.297Z ::1 - GET /api/banners HTTP/1.1 304 - - 29.413 ms
+info: 2020-09-26T01:22:19.566Z ::1 - POST /api/banners/upload HTTP/1.1 200 150 - 212.211 ms
+info: 2020-09-26T01:22:19.667Z ::1 - GET /img/uploads/4df322b1-ab01-4e1c-8aea-8610f9e0c851 HTTP/1.1 200 27136 - 4.125 ms
+info: 2020-09-26T01:22:19.701Z ::1 - GET /api/banners HTTP/1.1 200 667 - 7.666 ms
+info: 2020-09-26T01:22:26.103Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:22:26.269Z El banner fue eliminado
+info: 2020-09-26T01:22:26.288Z ::1 - DELETE /api/banners/14 HTTP/1.1 200 36 - 214.894 ms
+info: 2020-09-26T01:22:27.125Z ::1 - GET /api/banners HTTP/1.1 200 516 - 31.445 ms
+info: 2020-09-26T01:22:27.126Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:22:27.127Z ::1 - GET /api/users/me HTTP/1.1 304 - - 33.193 ms
+info: 2020-09-26T01:22:27.228Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.338 ms
+info: 2020-09-26T01:22:27.243Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 1.922 ms
+info: 2020-09-26T01:22:27.247Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.716 ms
+info: 2020-09-26T01:22:27.249Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.426 ms
+info: 2020-09-26T01:22:27.344Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.690 ms
+info: 2020-09-26T01:25:30.712Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:25:30.713Z ::1 - GET /api/users/me HTTP/1.1 304 - - 7.322 ms
+info: 2020-09-26T01:25:31.003Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.057 ms
+info: 2020-09-26T01:25:31.038Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.978 ms
+info: 2020-09-26T01:25:31.055Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.679 ms
+info: 2020-09-26T01:25:31.060Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 1.037 ms
+info: 2020-09-26T01:25:31.062Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 3.406 ms
+info: 2020-09-26T01:26:05.802Z ::1 - GET /api/banners HTTP/1.1 304 - - 24.284 ms
+info: 2020-09-26T01:26:05.804Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:26:05.805Z ::1 - GET /api/users/me HTTP/1.1 304 - - 24.928 ms
+info: 2020-09-26T01:26:05.957Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.081 ms
+info: 2020-09-26T01:26:05.974Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 2.718 ms
+info: 2020-09-26T01:26:05.991Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 19.660 ms
+info: 2020-09-26T01:26:06.020Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 37.313 ms
+info: 2020-09-26T01:26:06.041Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.596 ms
+info: 2020-09-26T01:26:54.109Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:26:54.131Z ::1 - GET /api/users/me HTTP/1.1 304 - - 38.850 ms
+info: 2020-09-26T01:26:54.385Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.724 ms
+info: 2020-09-26T01:26:54.450Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.845 ms
+info: 2020-09-26T01:26:54.510Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 3.504 ms
+info: 2020-09-26T01:26:54.511Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 62.649 ms
+info: 2020-09-26T01:26:54.567Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 62.670 ms
+info: 2020-09-26T01:29:24.837Z Informando en el servidor
+info: 2020-09-26T01:30:02.598Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:30:02.618Z ::1 - GET /api/users/me HTTP/1.1 304 - - 103.085 ms
+info: 2020-09-26T01:30:02.784Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.377 ms
+info: 2020-09-26T01:30:02.844Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 4.904 ms
+info: 2020-09-26T01:30:02.846Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 6.007 ms
+info: 2020-09-26T01:30:02.848Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 7.432 ms
+info: 2020-09-26T01:30:02.850Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 8.702 ms
+info: 2020-09-26T01:30:35.559Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:30:35.562Z ::1 - GET /api/users/me HTTP/1.1 304 - - 44.255 ms
+info: 2020-09-26T01:30:35.628Z ::1 - GET /api/clients HTTP/1.1 200 2 - 65.085 ms
+info: 2020-09-26T01:30:35.761Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.556 ms
+info: 2020-09-26T01:30:35.818Z ::1 - GET /api/clients HTTP/1.1 304 - - 17.188 ms
+info: 2020-09-26T01:30:35.847Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.773 ms
+info: 2020-09-26T01:30:35.864Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 3.573 ms
+info: 2020-09-26T01:30:35.866Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 19.460 ms
+info: 2020-09-26T01:30:35.868Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 20.656 ms
+info: 2020-09-26T01:30:38.095Z ::1 - GET /api/clients HTTP/1.1 304 - - 3.384 ms
+info: 2020-09-26T01:30:44.490Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+warn: 2020-09-26T01:30:44.492Z Para guardar la imagen del banner necesita un content-type valido
+info: 2020-09-26T01:30:44.495Z ::1 - POST /api/clients/upload HTTP/1.1 400 160 - 55.116 ms
+info: 2020-09-26T01:30:44.548Z ::1 - GET /api/clients HTTP/1.1 304 - - 8.167 ms
+info: 2020-09-26T01:31:37.183Z Informando en el servidor
+info: 2020-09-26T01:31:52.512Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+warn: 2020-09-26T01:31:52.513Z Para guardar la imagen del banner necesita un content-type valido
+info: 2020-09-26T01:31:52.517Z ::1 - POST /api/clients/upload HTTP/1.1 400 160 - 79.253 ms
+info: 2020-09-26T01:31:52.660Z ::1 - GET /api/clients HTTP/1.1 304 - - 87.744 ms
+info: 2020-09-26T01:32:31.376Z Informando en el servidor
+info: 2020-09-26T01:33:48.266Z ::1 - GET /api/clients HTTP/1.1 304 - - 142.217 ms
+info: 2020-09-26T01:33:48.326Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:33:48.348Z ::1 - GET /api/users/me HTTP/1.1 304 - - 202.944 ms
+info: 2020-09-26T01:33:48.496Z ::1 - GET /api/banners HTTP/1.1 304 - - 21.672 ms
+info: 2020-09-26T01:33:48.499Z ::1 - GET /api/clients HTTP/1.1 304 - - 23.246 ms
+info: 2020-09-26T01:33:48.568Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.035 ms
+info: 2020-09-26T01:33:48.594Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 1.250 ms
+info: 2020-09-26T01:33:48.599Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.841 ms
+info: 2020-09-26T01:33:48.601Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 2.937 ms
+info: 2020-09-26T01:33:50.730Z ::1 - GET /api/clients HTTP/1.1 304 - - 4.009 ms
+info: 2020-09-26T01:33:52.931Z ::1 - GET /api/banners HTTP/1.1 304 - - 18.488 ms
+info: 2020-09-26T01:33:52.969Z ::1 - GET /api/clients HTTP/1.1 304 - - 52.860 ms
+info: 2020-09-26T01:33:56.378Z ::1 - GET /api/clients HTTP/1.1 304 - - 6.172 ms
+info: 2020-09-26T01:34:02.851Z ::1 - POST /api/clients/upload HTTP/1.1 401 - - 33.192 ms
+info: 2020-09-26T01:34:02.914Z ::1 - GET /api/clients HTTP/1.1 304 - - 2.907 ms
+info: 2020-09-26T01:34:40.977Z ::1 - GET /api/clients HTTP/1.1 304 - - 25.935 ms
+info: 2020-09-26T01:34:41.035Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:34:41.037Z ::1 - GET /api/users/me HTTP/1.1 304 - - 99.018 ms
+info: 2020-09-26T01:34:41.232Z ::1 - GET /api/banners HTTP/1.1 304 - - 9.386 ms
+info: 2020-09-26T01:34:41.237Z ::1 - GET /api/clients HTTP/1.1 304 - - 19.853 ms
+info: 2020-09-26T01:34:41.312Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.518 ms
+info: 2020-09-26T01:34:41.315Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 4.474 ms
+info: 2020-09-26T01:34:41.316Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 6.469 ms
+info: 2020-09-26T01:34:41.318Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 7.483 ms
+info: 2020-09-26T01:34:50.449Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+warn: 2020-09-26T01:34:50.451Z Para guardar la imagen del banner necesita un content-type valido
+info: 2020-09-26T01:34:50.454Z ::1 - POST /api/clients/upload HTTP/1.1 400 160 - 40.938 ms
+info: 2020-09-26T01:34:50.524Z ::1 - GET /api/clients HTTP/1.1 304 - - 7.910 ms
+info: 2020-09-26T01:35:06.806Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+warn: 2020-09-26T01:35:06.807Z Para guardar la imagen del banner necesita un content-type valido
+info: 2020-09-26T01:35:06.808Z ::1 - POST /api/clients/upload HTTP/1.1 400 160 - 29.329 ms
+info: 2020-09-26T01:35:06.868Z ::1 - GET /api/clients HTTP/1.1 304 - - 12.288 ms
+info: 2020-09-26T01:36:12.326Z ::1 - GET /api/clients HTTP/1.1 304 - - 25.758 ms
+info: 2020-09-26T01:36:12.386Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:36:12.405Z ::1 - GET /api/users/me HTTP/1.1 304 - - 102.156 ms
+info: 2020-09-26T01:36:12.636Z ::1 - GET /api/clients HTTP/1.1 304 - - 2.914 ms
+info: 2020-09-26T01:36:12.640Z ::1 - GET /api/banners HTTP/1.1 304 - - 20.988 ms
+info: 2020-09-26T01:36:12.697Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 1.768 ms
+info: 2020-09-26T01:36:12.714Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.273 ms
+info: 2020-09-26T01:36:12.716Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.980 ms
+info: 2020-09-26T01:36:12.719Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.898 ms
+info: 2020-09-26T01:36:40.680Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+warn: 2020-09-26T01:36:40.681Z Para guardar la imagen del banner necesita un content-type valido
+info: 2020-09-26T01:36:40.684Z ::1 - POST /api/clients/upload HTTP/1.1 400 160 - 47.968 ms
+info: 2020-09-26T01:36:40.739Z ::1 - GET /api/clients HTTP/1.1 304 - - 5.457 ms
+info: 2020-09-26T01:37:58.305Z Informando en el servidor
+info: 2020-09-26T01:39:41.290Z ::1 - GET /api/clients HTTP/1.1 304 - - 117.568 ms
+info: 2020-09-26T01:39:41.302Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:39:41.306Z ::1 - GET /api/users/me HTTP/1.1 304 - - 80.921 ms
+info: 2020-09-26T01:39:41.521Z ::1 - GET /api/clients HTTP/1.1 304 - - 14.860 ms
+info: 2020-09-26T01:39:41.524Z ::1 - GET /api/banners HTTP/1.1 304 - - 17.314 ms
+info: 2020-09-26T01:39:41.566Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.293 ms
+info: 2020-09-26T01:39:41.578Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 3.502 ms
+info: 2020-09-26T01:39:41.581Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.137 ms
+info: 2020-09-26T01:39:41.583Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 2.023 ms
+info: 2020-09-26T01:40:08.766Z ::1 - POST /api/clients/upload HTTP/1.1 401 - - 23.135 ms
+info: 2020-09-26T01:40:08.860Z ::1 - GET /api/clients HTTP/1.1 304 - - 23.978 ms
+info: 2020-09-26T01:40:36.863Z Informando en el servidor
+info: 2020-09-26T01:41:06.076Z Informando en el servidor
+info: 2020-09-26T01:41:19.403Z ::1 - POST /api/clients/upload HTTP/1.1 401 - - 26.767 ms
+info: 2020-09-26T01:41:19.502Z ::1 - GET /api/clients HTTP/1.1 304 - - 52.030 ms
+info: 2020-09-26T01:41:38.269Z Informando en el servidor
+info: 2020-09-26T01:41:48.737Z ::1 - POST /api/clients/upload HTTP/1.1 200 132 - 299.379 ms
+info: 2020-09-26T01:41:48.838Z ::1 - GET /img/uploads/ecf40d4e-c245-4d12-9a30-5fbd0686631e HTTP/1.1 200 595045 - 6.588 ms
+info: 2020-09-26T01:41:48.865Z ::1 - GET /api/clients HTTP/1.1 200 134 - 10.889 ms
+info: 2020-09-26T01:42:05.576Z ::1 - POST /api/clients/upload HTTP/1.1 200 125 - 286.874 ms
+info: 2020-09-26T01:42:05.682Z ::1 - GET /api/clients HTTP/1.1 200 260 - 4.610 ms
+info: 2020-09-26T01:42:05.701Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 200 2298465 - 1.206 ms
+info: 2020-09-26T01:42:14.917Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 0.783 ms
+info: 2020-09-26T01:42:26.485Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:42:26.627Z El cliente fue eliminado
+info: 2020-09-26T01:42:26.642Z ::1 - DELETE /api/clients/1 HTTP/1.1 200 37 - 198.139 ms
+info: 2020-09-26T01:42:27.706Z ::1 - GET /api/clients HTTP/1.1 200 127 - 5.943 ms
+info: 2020-09-26T01:42:27.720Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:42:27.722Z ::1 - GET /api/users/me HTTP/1.1 304 - - 30.845 ms
+info: 2020-09-26T01:42:27.802Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 0.667 ms
+info: 2020-09-26T01:42:28.189Z ::1 - GET /api/clients HTTP/1.1 304 - - 37.504 ms
+info: 2020-09-26T01:42:28.290Z ::1 - GET /api/banners HTTP/1.1 304 - - 136.680 ms
+info: 2020-09-26T01:42:28.323Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.514 ms
+info: 2020-09-26T01:42:28.341Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 3.903 ms
+info: 2020-09-26T01:42:28.361Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 13.928 ms
+info: 2020-09-26T01:42:28.374Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 33.460 ms
+info: 2020-09-26T01:42:33.632Z ::1 - GET /api/clients HTTP/1.1 304 - - 4.378 ms
+info: 2020-09-26T01:43:11.337Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 0.718 ms
+info: 2020-09-26T01:44:09.484Z ::1 - GET /api/clients HTTP/1.1 304 - - 19.753 ms
+info: 2020-09-26T01:44:09.486Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:44:09.513Z ::1 - GET /api/users/me HTTP/1.1 304 - - 35.615 ms
+info: 2020-09-26T01:44:09.657Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 0.678 ms
+info: 2020-09-26T01:44:09.738Z ::1 - GET /api/banners HTTP/1.1 304 - - 19.563 ms
+info: 2020-09-26T01:44:09.750Z ::1 - GET /api/clients HTTP/1.1 304 - - 21.074 ms
+info: 2020-09-26T01:44:10.042Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 3.038 ms
+info: 2020-09-26T01:44:10.061Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 2.467 ms
+info: 2020-09-26T01:44:10.081Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.697 ms
+info: 2020-09-26T01:44:10.095Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 19.258 ms
+info: 2020-09-26T01:44:36.678Z ::1 - GET /api/banners HTTP/1.1 304 - - 37.682 ms
+info: 2020-09-26T01:44:36.682Z ::1 - GET /api/clients HTTP/1.1 304 - - 40.210 ms
+info: 2020-09-26T01:44:36.683Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:44:36.698Z ::1 - GET /api/users/me HTTP/1.1 304 - - 42.909 ms
+info: 2020-09-26T01:44:36.797Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.647 ms
+info: 2020-09-26T01:44:36.815Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 1.473 ms
+info: 2020-09-26T01:44:36.833Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.020 ms
+info: 2020-09-26T01:44:36.867Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 2.083 ms
+info: 2020-09-26T01:44:36.884Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 32.206 ms
+info: 2020-09-26T01:44:36.912Z ::1 - GET /api/banners HTTP/1.1 304 - - 16.516 ms
+info: 2020-09-26T01:44:36.915Z ::1 - GET /api/clients HTTP/1.1 304 - - 26.601 ms
+info: 2020-09-26T01:44:40.393Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.557 ms
+info: 2020-09-26T01:44:40.398Z ::1 - GET /api/clients HTTP/1.1 304 - - 19.932 ms
+info: 2020-09-26T01:44:40.403Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:44:40.419Z ::1 - GET /api/users/me HTTP/1.1 304 - - 7.941 ms
+info: 2020-09-26T01:44:40.516Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.667 ms
+info: 2020-09-26T01:44:40.532Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.447 ms
+info: 2020-09-26T01:44:40.536Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.830 ms
+info: 2020-09-26T01:44:40.539Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 3.528 ms
+info: 2020-09-26T01:44:40.585Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 5.509 ms
+info: 2020-09-26T01:44:40.615Z ::1 - GET /api/banners HTTP/1.1 304 - - 16.820 ms
+info: 2020-09-26T01:44:40.618Z ::1 - GET /api/clients HTTP/1.1 304 - - 28.038 ms
+info: 2020-09-26T01:44:47.907Z ::1 - GET /api/clients HTTP/1.1 304 - - 5.044 ms
+info: 2020-09-26T01:44:51.402Z ::1 - GET /api/clients HTTP/1.1 304 - - 2.822 ms
+info: 2020-09-26T01:44:51.415Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:44:51.417Z ::1 - GET /api/users/me HTTP/1.1 304 - - 25.054 ms
+info: 2020-09-26T01:44:51.526Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 0.421 ms
+info: 2020-09-26T01:44:51.570Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.939 ms
+info: 2020-09-26T01:44:51.583Z ::1 - GET /api/clients HTTP/1.1 304 - - 10.468 ms
+info: 2020-09-26T01:44:51.686Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.268 ms
+info: 2020-09-26T01:44:51.712Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 4.810 ms
+info: 2020-09-26T01:44:51.717Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.338 ms
+info: 2020-09-26T01:44:51.735Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 3.602 ms
+info: 2020-09-26T01:44:52.840Z ::1 - GET /api/clients HTTP/1.1 304 - - 3.026 ms
+info: 2020-09-26T01:45:05.108Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 0.453 ms
+info: 2020-09-26T01:45:23.738Z ::1 - GET /api/banners HTTP/1.1 304 - - 22.673 ms
+info: 2020-09-26T01:45:27.879Z ::1 - GET /api/banners HTTP/1.1 304 - - 20.713 ms
+info: 2020-09-26T01:45:27.882Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:45:27.884Z ::1 - GET /api/users/me HTTP/1.1 304 - - 24.964 ms
+info: 2020-09-26T01:45:28.016Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.665 ms
+info: 2020-09-26T01:45:28.026Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.421 ms
+info: 2020-09-26T01:45:28.030Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.704 ms
+info: 2020-09-26T01:45:28.032Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 2.230 ms
+info: 2020-09-26T01:45:28.103Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.034 ms
+info: 2020-09-26T01:45:28.125Z ::1 - GET /api/clients HTTP/1.1 304 - - 5.373 ms
+info: 2020-09-26T01:45:28.269Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 0.549 ms
+info: 2020-09-26T01:46:13.665Z ::1 - GET /api/clients HTTP/1.1 304 - - 6.845 ms
+info: 2020-09-26T01:46:21.205Z ::1 - GET /img/uploads/56308519-f899-4e91-9ae4-f28156dba49b HTTP/1.1 304 - - 0.541 ms
+info: 2020-09-26T01:47:25.187Z ::1 - POST /api/clients/upload HTTP/1.1 200 105 - 287.433 ms
+info: 2020-09-26T01:47:25.260Z ::1 - GET /img/uploads/f83bc59d-8718-449e-8cc0-eb4b35240ce7 HTTP/1.1 200 4430 - 1.016 ms
+info: 2020-09-26T01:47:25.267Z ::1 - GET /api/clients HTTP/1.1 200 233 - 2.431 ms
+info: 2020-09-26T01:47:43.723Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:47:43.912Z El cliente fue eliminado
+info: 2020-09-26T01:47:43.922Z ::1 - DELETE /api/clients/2 HTTP/1.1 200 37 - 227.200 ms
+info: 2020-09-26T01:47:44.719Z ::1 - GET /api/clients HTTP/1.1 200 107 - 5.296 ms
+info: 2020-09-26T01:47:44.720Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:47:44.724Z ::1 - GET /api/users/me HTTP/1.1 304 - - 7.479 ms
+info: 2020-09-26T01:47:44.806Z ::1 - GET /img/uploads/f83bc59d-8718-449e-8cc0-eb4b35240ce7 HTTP/1.1 304 - - 1.039 ms
+info: 2020-09-26T01:47:44.869Z ::1 - GET /api/clients HTTP/1.1 304 - - 4.498 ms
+info: 2020-09-26T01:47:44.899Z ::1 - GET /api/banners HTTP/1.1 304 - - 30.019 ms
+info: 2020-09-26T01:47:44.917Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.497 ms
+info: 2020-09-26T01:47:44.919Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 7.282 ms
+info: 2020-09-26T01:47:44.922Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.552 ms
+info: 2020-09-26T01:47:44.927Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.726 ms
+info: 2020-09-26T01:47:48.460Z ::1 - GET /api/clients HTTP/1.1 304 - - 2.956 ms
+info: 2020-09-26T01:47:53.273Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:47:53.504Z El cliente fue eliminado
+info: 2020-09-26T01:47:53.507Z ::1 - DELETE /api/clients/3 HTTP/1.1 200 37 - 239.212 ms
+info: 2020-09-26T01:47:53.954Z ::1 - GET /api/clients HTTP/1.1 200 2 - 4.737 ms
+info: 2020-09-26T01:47:53.955Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:47:53.957Z ::1 - GET /api/users/me HTTP/1.1 304 - - 10.206 ms
+info: 2020-09-26T01:47:54.115Z ::1 - GET /api/clients HTTP/1.1 304 - - 3.787 ms
+info: 2020-09-26T01:47:54.136Z ::1 - GET /api/banners HTTP/1.1 304 - - 24.624 ms
+info: 2020-09-26T01:47:54.168Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.617 ms
+info: 2020-09-26T01:47:54.175Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 1.065 ms
+info: 2020-09-26T01:47:54.178Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.711 ms
+info: 2020-09-26T01:47:54.180Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 1.886 ms
+info: 2020-09-26T01:48:43.822Z ::1 - GET /api/banners HTTP/1.1 304 - - 385.112 ms
+info: 2020-09-26T01:48:43.853Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:48:43.856Z ::1 - GET /api/users/me HTTP/1.1 304 - - 436.048 ms
+info: 2020-09-26T01:48:43.939Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 4.114 ms
+info: 2020-09-26T01:48:44.001Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 47.343 ms
+info: 2020-09-26T01:48:44.021Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 108.325 ms
+info: 2020-09-26T01:48:44.496Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 128.197 ms
+info: 2020-09-26T01:48:44.547Z ::1 - GET /api/clients HTTP/1.1 304 - - 1081.279 ms
+info: 2020-09-26T01:48:44.569Z ::1 - GET /api/banners HTTP/1.1 304 - - 58.766 ms
+info: 2020-09-26T01:48:44.686Z ::1 - GET /api/clients HTTP/1.1 304 - - 18.856 ms
+info: 2020-09-26T01:48:47.340Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.106 ms
+info: 2020-09-26T01:48:47.346Z ::1 - GET /api/clients HTTP/1.1 304 - - 5.802 ms
+info: 2020-09-26T01:49:54.304Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:49:54.308Z ::1 - GET /api/users/me HTTP/1.1 304 - - 728.387 ms
+info: 2020-09-26T01:49:54.591Z ::1 - GET /api/banners HTTP/1.1 304 - - 734.395 ms
+info: 2020-09-26T01:49:54.596Z ::1 - GET /api/clients HTTP/1.1 304 - - 1016.446 ms
+info: 2020-09-26T01:49:54.691Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 2.169 ms
+info: 2020-09-26T01:49:54.697Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 92.861 ms
+info: 2020-09-26T01:49:54.711Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 98.333 ms
+info: 2020-09-26T01:49:54.727Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 113.551 ms
+info: 2020-09-26T01:50:01.128Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.615 ms
+info: 2020-09-26T01:50:01.134Z ::1 - GET /api/clients HTTP/1.1 304 - - 7.018 ms
+info: 2020-09-26T01:50:01.135Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:50:01.136Z ::1 - GET /api/users/me HTTP/1.1 304 - - 8.829 ms
+info: 2020-09-26T01:50:01.171Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 1.263 ms
+info: 2020-09-26T01:50:01.174Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.918 ms
+info: 2020-09-26T01:50:01.177Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.876 ms
+info: 2020-09-26T01:50:01.178Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 2.435 ms
+info: 2020-09-26T01:50:42.357Z ::1 - GET /api/banners HTTP/1.1 304 - - 136.105 ms
+info: 2020-09-26T01:50:42.378Z ::1 - GET /api/clients HTTP/1.1 304 - - 161.393 ms
+info: 2020-09-26T01:50:42.848Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:50:42.850Z ::1 - GET /api/users/me HTTP/1.1 304 - - 633.516 ms
+info: 2020-09-26T01:50:42.912Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.276 ms
+info: 2020-09-26T01:50:42.917Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 4.872 ms
+info: 2020-09-26T01:50:42.922Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.447 ms
+info: 2020-09-26T01:50:42.927Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.521 ms
+info: 2020-09-26T01:51:11.693Z ::1 - GET /api/banners HTTP/1.1 304 - - 127.308 ms
+info: 2020-09-26T01:51:11.706Z ::1 - GET /api/clients HTTP/1.1 304 - - 133.556 ms
+info: 2020-09-26T01:52:40.597Z ::1 - POST /api/clients/upload HTTP/1.1 200 111 - 191.107 ms
+info: 2020-09-26T01:52:40.646Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 200 12777 - 0.898 ms
+info: 2020-09-26T01:52:40.658Z ::1 - GET /api/clients HTTP/1.1 200 113 - 5.887 ms
+info: 2020-09-26T01:52:53.278Z ::1 - GET /api/banners HTTP/1.1 304 - - 34.568 ms
+info: 2020-09-26T01:52:53.285Z ::1 - GET /api/clients HTTP/1.1 304 - - 58.761 ms
+info: 2020-09-26T01:53:20.768Z ::1 - GET /api/banners HTTP/1.1 304 - - 863.892 ms
+info: 2020-09-26T01:53:20.782Z ::1 - GET /api/clients HTTP/1.1 304 - - 11.662 ms
+info: 2020-09-26T01:53:21.334Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.509 ms
+info: 2020-09-26T01:53:21.337Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:53:21.340Z ::1 - GET /api/users/me HTTP/1.1 304 - - 566.986 ms
+info: 2020-09-26T01:53:21.345Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 5.151 ms
+info: 2020-09-26T01:53:21.426Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 10.155 ms
+info: 2020-09-26T01:53:21.444Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 80.138 ms
+info: 2020-09-26T01:53:21.454Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 92.591 ms
+info: 2020-09-26T01:53:44.016Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:53:44.030Z ::1 - GET /api/users/me HTTP/1.1 304 - - 83.675 ms
+info: 2020-09-26T01:53:44.032Z ::1 - GET /api/banners HTTP/1.1 304 - - 99.257 ms
+info: 2020-09-26T01:53:44.100Z ::1 - GET /api/clients HTTP/1.1 304 - - 130.993 ms
+info: 2020-09-26T01:53:44.112Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.962 ms
+info: 2020-09-26T01:53:44.116Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 10.492 ms
+info: 2020-09-26T01:53:44.118Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 13.689 ms
+info: 2020-09-26T01:53:44.121Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 15.115 ms
+info: 2020-09-26T01:53:44.128Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 0.567 ms
+info: 2020-09-26T01:53:56.332Z ::1 - GET /api/banners HTTP/1.1 304 - - 25.722 ms
+info: 2020-09-26T01:53:56.336Z ::1 - GET /api/clients HTTP/1.1 304 - - 27.700 ms
+info: 2020-09-26T01:54:18.707Z ::1 - GET /api/clients HTTP/1.1 304 - - 91.145 ms
+info: 2020-09-26T01:54:18.714Z ::1 - GET /api/banners HTTP/1.1 304 - - 94.108 ms
+info: 2020-09-26T01:56:24.967Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:56:24.970Z ::1 - GET /api/users/me HTTP/1.1 304 - - 12.053 ms
+info: 2020-09-26T01:56:25.065Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.874 ms
+info: 2020-09-26T01:56:25.071Z ::1 - GET /api/clients HTTP/1.1 304 - - 21.494 ms
+info: 2020-09-26T01:56:25.086Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.432 ms
+info: 2020-09-26T01:56:25.090Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 6.171 ms
+info: 2020-09-26T01:56:25.091Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 9.011 ms
+info: 2020-09-26T01:56:25.102Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.928 ms
+info: 2020-09-26T01:56:25.112Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 0.480 ms
+info: 2020-09-26T01:56:42.506Z ::1 - POST /api/clients/upload HTTP/1.1 200 110 - 287.585 ms
+info: 2020-09-26T01:56:42.542Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 200 16879 - 1.173 ms
+info: 2020-09-26T01:56:42.549Z ::1 - GET /api/clients HTTP/1.1 200 224 - 2.605 ms
+info: 2020-09-26T01:56:59.314Z ::1 - POST /api/clients/upload HTTP/1.1 200 110 - 135.555 ms
+info: 2020-09-26T01:56:59.370Z ::1 - GET /img/uploads/82f05afe-881e-4803-ad0c-5b7879659ef4 HTTP/1.1 200 16011 - 0.760 ms
+info: 2020-09-26T01:56:59.411Z ::1 - GET /api/clients HTTP/1.1 200 335 - 2.607 ms
+info: 2020-09-26T01:57:11.539Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:57:11.677Z El cliente fue eliminado
+info: 2020-09-26T01:57:11.679Z ::1 - DELETE /api/clients/6 HTTP/1.1 200 37 - 171.756 ms
+info: 2020-09-26T01:57:12.036Z ::1 - GET /api/clients HTTP/1.1 200 224 - 3.015 ms
+info: 2020-09-26T01:57:12.053Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T01:57:12.055Z ::1 - GET /api/users/me HTTP/1.1 304 - - 22.661 ms
+info: 2020-09-26T01:57:12.181Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 0.508 ms
+info: 2020-09-26T01:57:12.187Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 0.448 ms
+info: 2020-09-26T01:57:12.221Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.245 ms
+info: 2020-09-26T01:57:12.229Z ::1 - GET /api/clients HTTP/1.1 304 - - 9.598 ms
+info: 2020-09-26T01:57:12.251Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.685 ms
+info: 2020-09-26T01:57:12.265Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 1.778 ms
+info: 2020-09-26T01:57:12.269Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 13.963 ms
+info: 2020-09-26T01:57:12.271Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 16.303 ms
+info: 2020-09-26T01:57:24.139Z ::1 - POST /api/clients/upload HTTP/1.1 200 107 - 143.842 ms
+info: 2020-09-26T01:57:24.185Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 200 16132 - 1.640 ms
+info: 2020-09-26T01:57:24.193Z ::1 - GET /api/clients HTTP/1.1 200 332 - 2.353 ms
+info: 2020-09-26T01:57:47.580Z ::1 - POST /api/clients/upload HTTP/1.1 200 107 - 188.893 ms
+info: 2020-09-26T01:57:47.612Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 200 10005 - 0.820 ms
+info: 2020-09-26T01:57:47.620Z ::1 - GET /api/clients HTTP/1.1 200 440 - 3.370 ms
+info: 2020-09-26T01:58:33.965Z ::1 - POST /api/clients/upload HTTP/1.1 200 106 - 266.905 ms
+info: 2020-09-26T01:58:34.015Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 200 30982 - 1.166 ms
+info: 2020-09-26T01:58:34.026Z ::1 - GET /api/clients HTTP/1.1 200 547 - 2.106 ms
+info: 2020-09-26T01:58:37.121Z ::1 - GET /api/banners HTTP/1.1 304 - - 27.584 ms
+info: 2020-09-26T01:58:37.164Z ::1 - GET /api/clients HTTP/1.1 304 - - 71.793 ms
+info: 2020-09-26T02:00:37.483Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 1.103 ms
+info: 2020-09-26T02:01:41.746Z ::1 - GET /api/banners HTTP/1.1 304 - - 46.841 ms
+info: 2020-09-26T02:01:41.814Z ::1 - GET /api/clients HTTP/1.1 304 - - 48.518 ms
+info: 2020-09-26T02:01:41.835Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:01:41.870Z ::1 - GET /api/users/me HTTP/1.1 304 - - 137.765 ms
+info: 2020-09-26T02:01:41.926Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 3.651 ms
+info: 2020-09-26T02:01:41.929Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 2.509 ms
+info: 2020-09-26T02:01:41.942Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.530 ms
+info: 2020-09-26T02:01:41.959Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.477 ms
+info: 2020-09-26T02:01:42.007Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 0.493 ms
+info: 2020-09-26T02:01:42.027Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 1.723 ms
+info: 2020-09-26T02:01:42.029Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 2.498 ms
+info: 2020-09-26T02:01:42.033Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 4.383 ms
+info: 2020-09-26T02:01:42.044Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 3.454 ms
+info: 2020-09-26T02:02:07.602Z ::1 - GET /api/banners HTTP/1.1 304 - - 24.664 ms
+info: 2020-09-26T02:02:07.604Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:02:07.610Z ::1 - GET /api/users/me HTTP/1.1 304 - - 29.676 ms
+info: 2020-09-26T02:02:07.635Z ::1 - GET /api/clients HTTP/1.1 304 - - 36.208 ms
+info: 2020-09-26T02:02:07.733Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.637 ms
+info: 2020-09-26T02:02:07.735Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 7.364 ms
+info: 2020-09-26T02:02:07.808Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.547 ms
+info: 2020-09-26T02:02:07.821Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.713 ms
+info: 2020-09-26T02:02:07.887Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 1.335 ms
+info: 2020-09-26T02:02:07.899Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 3.981 ms
+info: 2020-09-26T02:02:07.901Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 11.598 ms
+info: 2020-09-26T02:02:07.903Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 12.549 ms
+info: 2020-09-26T02:02:07.904Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 13.968 ms
+info: 2020-09-26T02:02:17.047Z ::1 - GET /api/banners HTTP/1.1 304 - - 32.236 ms
+info: 2020-09-26T02:02:17.049Z ::1 - GET /api/clients HTTP/1.1 304 - - 34.428 ms
+info: 2020-09-26T02:02:17.050Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:02:17.052Z ::1 - GET /api/users/me HTTP/1.1 304 - - 35.390 ms
+info: 2020-09-26T02:02:17.065Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.654 ms
+info: 2020-09-26T02:02:17.068Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.390 ms
+info: 2020-09-26T02:02:17.070Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.378 ms
+info: 2020-09-26T02:02:17.086Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 1.597 ms
+info: 2020-09-26T02:02:17.113Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 0.712 ms
+info: 2020-09-26T02:02:17.122Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 0.943 ms
+info: 2020-09-26T02:02:17.124Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 8.604 ms
+info: 2020-09-26T02:02:17.126Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 0.800 ms
+info: 2020-09-26T02:02:17.129Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 2.517 ms
+info: 2020-09-26T02:02:37.605Z ::1 - GET /api/banners HTTP/1.1 304 - - 20.100 ms
+info: 2020-09-26T02:02:37.606Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:02:37.608Z ::1 - GET /api/users/me HTTP/1.1 304 - - 22.062 ms
+info: 2020-09-26T02:02:37.623Z ::1 - GET /api/clients HTTP/1.1 304 - - 24.979 ms
+info: 2020-09-26T02:02:37.682Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.264 ms
+info: 2020-09-26T02:02:37.702Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 3.186 ms
+info: 2020-09-26T02:02:37.705Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 22.352 ms
+info: 2020-09-26T02:02:37.707Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 24.176 ms
+info: 2020-09-26T02:02:37.771Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 0.637 ms
+info: 2020-09-26T02:02:37.784Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 0.457 ms
+info: 2020-09-26T02:02:37.826Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 0.787 ms
+info: 2020-09-26T02:02:37.837Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 0.975 ms
+info: 2020-09-26T02:02:37.838Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 9.032 ms
+info: 2020-09-26T02:02:50.838Z ::1 - GET /api/banners HTTP/1.1 304 - - 21.972 ms
+info: 2020-09-26T02:02:50.841Z ::1 - GET /api/clients HTTP/1.1 304 - - 23.668 ms
+info: 2020-09-26T02:04:29.888Z ::1 - GET /api/banners HTTP/1.1 304 - - 41.100 ms
+info: 2020-09-26T02:04:29.892Z ::1 - GET /api/clients HTTP/1.1 304 - - 42.170 ms
+info: 2020-09-26T02:04:29.893Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:04:29.895Z ::1 - GET /api/users/me HTTP/1.1 304 - - 44.557 ms
+info: 2020-09-26T02:04:30.158Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 3.094 ms
+info: 2020-09-26T02:04:30.166Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 41.379 ms
+info: 2020-09-26T02:04:30.188Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 48.443 ms
+info: 2020-09-26T02:04:30.225Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 69.993 ms
+info: 2020-09-26T02:04:30.231Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 106.867 ms
+info: 2020-09-26T02:04:30.247Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 6.594 ms
+info: 2020-09-26T02:04:30.378Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 96.424 ms
+info: 2020-09-26T02:04:30.393Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 124.305 ms
+info: 2020-09-26T02:04:30.400Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 138.869 ms
+info: 2020-09-26T02:04:30.413Z ::1 - GET /api/banners HTTP/1.1 304 - - 149.211 ms
+info: 2020-09-26T02:04:30.417Z ::1 - GET /api/clients HTTP/1.1 304 - - 161.734 ms
+info: 2020-09-26T02:04:57.643Z ::1 - GET /api/banners HTTP/1.1 304 - - 44.396 ms
+info: 2020-09-26T02:04:57.645Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:04:57.718Z ::1 - GET /api/users/me HTTP/1.1 304 - - 54.009 ms
+info: 2020-09-26T02:04:57.745Z ::1 - GET /api/clients HTTP/1.1 304 - - 130.921 ms
+info: 2020-09-26T02:04:57.794Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 7.542 ms
+info: 2020-09-26T02:04:57.814Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 8.736 ms
+info: 2020-09-26T02:04:57.830Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 27.865 ms
+info: 2020-09-26T02:04:57.842Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 2.120 ms
+info: 2020-09-26T02:04:57.846Z ::1 - GET /api/banners HTTP/1.1 304 - - 13.921 ms
+info: 2020-09-26T02:04:57.959Z ::1 - GET /api/clients HTTP/1.1 304 - - 44.580 ms
+info: 2020-09-26T02:04:57.964Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 49.987 ms
+info: 2020-09-26T02:04:57.980Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 53.467 ms
+info: 2020-09-26T02:04:57.992Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 69.680 ms
+info: 2020-09-26T02:04:57.996Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 1.232 ms
+info: 2020-09-26T02:04:58.014Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 1.703 ms
+info: 2020-09-26T02:05:19.026Z ::1 - GET /api/banners HTTP/1.1 304 - - 23.066 ms
+info: 2020-09-26T02:05:19.028Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:05:19.029Z ::1 - GET /api/users/me HTTP/1.1 304 - - 23.415 ms
+info: 2020-09-26T02:05:19.031Z ::1 - GET /api/clients HTTP/1.1 304 - - 27.793 ms
+info: 2020-09-26T02:05:19.402Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.507 ms
+info: 2020-09-26T02:05:19.414Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.462 ms
+info: 2020-09-26T02:05:19.418Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.770 ms
+info: 2020-09-26T02:05:19.435Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 0.456 ms
+info: 2020-09-26T02:05:19.494Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 1.354 ms
+info: 2020-09-26T02:05:19.496Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 2.359 ms
+info: 2020-09-26T02:05:19.504Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 0.960 ms
+info: 2020-09-26T02:05:19.519Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 1.726 ms
+info: 2020-09-26T02:05:19.536Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 1.646 ms
+info: 2020-09-26T02:05:19.587Z ::1 - GET /api/banners HTTP/1.1 304 - - 64.418 ms
+info: 2020-09-26T02:05:19.601Z ::1 - GET /api/clients HTTP/1.1 304 - - 66.523 ms
+info: 2020-09-26T02:05:52.908Z ::1 - GET /api/banners HTTP/1.1 304 - - 37.878 ms
+info: 2020-09-26T02:05:52.920Z ::1 - GET /api/clients HTTP/1.1 304 - - 37.904 ms
+info: 2020-09-26T02:05:52.921Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:05:52.923Z ::1 - GET /api/users/me HTTP/1.1 304 - - 49.217 ms
+info: 2020-09-26T02:05:53.131Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.538 ms
+info: 2020-09-26T02:05:53.143Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 1.821 ms
+info: 2020-09-26T02:05:53.157Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 7.588 ms
+info: 2020-09-26T02:05:53.158Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 12.073 ms
+info: 2020-09-26T02:05:53.169Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 14.645 ms
+info: 2020-09-26T02:05:53.174Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 0.461 ms
+info: 2020-09-26T02:05:53.186Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 0.911 ms
+info: 2020-09-26T02:05:53.190Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 0.866 ms
+info: 2020-09-26T02:05:53.191Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 1.643 ms
+info: 2020-09-26T02:05:53.307Z ::1 - GET /api/banners HTTP/1.1 304 - - 12.541 ms
+info: 2020-09-26T02:05:53.320Z ::1 - GET /api/clients HTTP/1.1 304 - - 14.424 ms
+info: 2020-09-26T02:06:07.696Z ::1 - GET /api/clients HTTP/1.1 304 - - 10.722 ms
+info: 2020-09-26T02:06:14.811Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.855 ms
+info: 2020-09-26T02:06:16.279Z ::1 - GET /api/banners HTTP/1.1 304 - - 19.727 ms
+info: 2020-09-26T02:06:16.281Z ::1 - GET /api/clients HTTP/1.1 304 - - 21.296 ms
+info: 2020-09-26T02:06:45.098Z ::1 - GET /api/clients HTTP/1.1 304 - - 14.884 ms
+info: 2020-09-26T02:07:44.361Z ::1 - GET /api/clients HTTP/1.1 304 - - 52.205 ms
+info: 2020-09-26T02:07:44.362Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:07:44.364Z ::1 - GET /api/users/me HTTP/1.1 304 - - 54.416 ms
+info: 2020-09-26T02:07:44.537Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 3.658 ms
+info: 2020-09-26T02:07:44.553Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 3.493 ms
+info: 2020-09-26T02:07:44.555Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 19.354 ms
+info: 2020-09-26T02:07:44.557Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 20.475 ms
+info: 2020-09-26T02:07:44.560Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 0.702 ms
+info: 2020-09-26T02:07:44.631Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.857 ms
+info: 2020-09-26T02:07:44.644Z ::1 - GET /api/clients HTTP/1.1 304 - - 6.649 ms
+info: 2020-09-26T02:07:44.690Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.464 ms
+info: 2020-09-26T02:07:44.712Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 3.348 ms
+info: 2020-09-26T02:07:44.714Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 24.286 ms
+info: 2020-09-26T02:07:44.716Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 25.846 ms
+info: 2020-09-26T02:07:48.619Z ::1 - GET /api/clients HTTP/1.1 304 - - 4.337 ms
+info: 2020-09-26T02:08:27.224Z ::1 - GET /api/banners HTTP/1.1 304 - - 19.665 ms
+info: 2020-09-26T02:08:27.227Z ::1 - GET /api/clients HTTP/1.1 304 - - 21.448 ms
+info: 2020-09-26T02:08:55.514Z ::1 - GET /api/clients HTTP/1.1 304 - - 23.784 ms
+info: 2020-09-26T02:09:02.692Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.132 ms
+info: 2020-09-26T02:09:03.884Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.988 ms
+info: 2020-09-26T02:09:03.895Z ::1 - GET /api/clients HTTP/1.1 304 - - 8.865 ms
+info: 2020-09-26T02:09:17.958Z ::1 - GET /api/clients HTTP/1.1 304 - - 8.607 ms
+info: 2020-09-26T02:09:41.356Z ::1 - GET /api/banners HTTP/1.1 304 - - 19.529 ms
+info: 2020-09-26T02:10:05.685Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:10:05.686Z ::1 - GET /api/users/me HTTP/1.1 304 - - 17.561 ms
+info: 2020-09-26T02:10:05.832Z ::1 - GET /api/banners HTTP/1.1 304 - - 15.642 ms
+info: 2020-09-26T02:10:05.835Z ::1 - GET /api/clients HTTP/1.1 304 - - 26.667 ms
+info: 2020-09-26T02:10:05.865Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.612 ms
+info: 2020-09-26T02:10:05.867Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 6.621 ms
+info: 2020-09-26T02:10:05.869Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 8.015 ms
+info: 2020-09-26T02:10:05.870Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 9.451 ms
+info: 2020-09-26T02:10:05.883Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 0.932 ms
+info: 2020-09-26T02:10:05.885Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 7.192 ms
+info: 2020-09-26T02:10:05.932Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 2.283 ms
+info: 2020-09-26T02:10:05.935Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 44.999 ms
+info: 2020-09-26T02:10:05.937Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 46.603 ms
+info: 2020-09-26T02:10:09.844Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.319 ms
+info: 2020-09-26T02:10:09.859Z ::1 - GET /api/clients HTTP/1.1 304 - - 23.583 ms
+info: 2020-09-26T02:10:09.917Z ::1 - GET /api/banners HTTP/1.1 304 - - 14.996 ms
+info: 2020-09-26T02:10:09.920Z ::1 - GET /api/clients HTTP/1.1 304 - - 16.763 ms
+info: 2020-09-26T02:10:22.522Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:10:22.526Z ::1 - GET /api/users/me HTTP/1.1 304 - - 16.949 ms
+info: 2020-09-26T02:10:22.792Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.642 ms
+info: 2020-09-26T02:10:22.804Z ::1 - GET /api/clients HTTP/1.1 304 - - 9.144 ms
+info: 2020-09-26T02:10:22.837Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 1.597 ms
+info: 2020-09-26T02:10:22.854Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 0.556 ms
+info: 2020-09-26T02:10:22.869Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 0.564 ms
+info: 2020-09-26T02:10:22.873Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 1.289 ms
+info: 2020-09-26T02:10:22.889Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 2.170 ms
+info: 2020-09-26T02:10:22.906Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 18.357 ms
+info: 2020-09-26T02:10:22.919Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 1.930 ms
+info: 2020-09-26T02:10:22.921Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 11.164 ms
+info: 2020-09-26T02:10:22.923Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 12.621 ms
+info: 2020-09-26T02:10:43.968Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:10:43.969Z ::1 - GET /api/users/me HTTP/1.1 304 - - 18.564 ms
+info: 2020-09-26T02:10:44.100Z ::1 - GET /api/banners HTTP/1.1 304 - - 9.535 ms
+info: 2020-09-26T02:10:44.106Z ::1 - GET /api/clients HTTP/1.1 304 - - 3.693 ms
+info: 2020-09-26T02:10:44.114Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.852 ms
+info: 2020-09-26T02:10:44.142Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 2.805 ms
+info: 2020-09-26T02:10:44.145Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 31.183 ms
+info: 2020-09-26T02:10:44.146Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 32.954 ms
+info: 2020-09-26T02:10:44.178Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 3.959 ms
+info: 2020-09-26T02:10:44.192Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 31.151 ms
+info: 2020-09-26T02:10:44.194Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 43.316 ms
+info: 2020-09-26T02:10:44.196Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 45.621 ms
+info: 2020-09-26T02:10:44.230Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 46.563 ms
+info: 2020-09-26T02:11:18.828Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:11:18.830Z ::1 - GET /api/users/me HTTP/1.1 304 - - 19.960 ms
+info: 2020-09-26T02:11:19.064Z ::1 - GET /api/banners HTTP/1.1 304 - - 21.335 ms
+info: 2020-09-26T02:11:19.066Z ::1 - GET /api/clients HTTP/1.1 304 - - 22.255 ms
+info: 2020-09-26T02:11:19.133Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.946 ms
+info: 2020-09-26T02:11:19.146Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 2.777 ms
+info: 2020-09-26T02:11:19.147Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 14.530 ms
+info: 2020-09-26T02:11:19.149Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 15.740 ms
+info: 2020-09-26T02:11:19.181Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 1.413 ms
+info: 2020-09-26T02:11:19.185Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 1.986 ms
+info: 2020-09-26T02:11:19.199Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 2.748 ms
+info: 2020-09-26T02:11:19.200Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 16.255 ms
+info: 2020-09-26T02:11:19.213Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 17.599 ms
+info: 2020-09-26T02:16:57.320Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:16:57.323Z ::1 - GET /api/users/me HTTP/1.1 304 - - 46.349 ms
+info: 2020-09-26T02:16:57.675Z ::1 - GET /api/banners HTTP/1.1 304 - - 17.398 ms
+info: 2020-09-26T02:16:57.686Z ::1 - GET /api/clients HTTP/1.1 304 - - 28.107 ms
+info: 2020-09-26T02:16:57.735Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 0.704 ms
+info: 2020-09-26T02:16:57.738Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 0.684 ms
+info: 2020-09-26T02:16:57.740Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 0.936 ms
+info: 2020-09-26T02:16:57.742Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 1.635 ms
+info: 2020-09-26T02:16:57.789Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 0.492 ms
+info: 2020-09-26T02:16:57.792Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 0.428 ms
+info: 2020-09-26T02:16:57.807Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 0.913 ms
+info: 2020-09-26T02:16:57.822Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 4.590 ms
+info: 2020-09-26T02:16:57.825Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 13.892 ms
+info: 2020-09-26T02:17:20.730Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:17:20.732Z ::1 - GET /api/users/me HTTP/1.1 304 - - 17.894 ms
+info: 2020-09-26T02:17:20.948Z ::1 - GET /api/banners HTTP/1.1 304 - - 31.589 ms
+info: 2020-09-26T02:17:20.951Z ::1 - GET /api/clients HTTP/1.1 304 - - 33.948 ms
+info: 2020-09-26T02:17:21.012Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.833 ms
+info: 2020-09-26T02:17:21.014Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 14.072 ms
+info: 2020-09-26T02:17:21.015Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 15.258 ms
+info: 2020-09-26T02:17:21.017Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 16.093 ms
+info: 2020-09-26T02:17:21.032Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 0.917 ms
+info: 2020-09-26T02:17:21.033Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 2.449 ms
+info: 2020-09-26T02:17:21.116Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 1.855 ms
+info: 2020-09-26T02:17:21.119Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 82.252 ms
+info: 2020-09-26T02:17:21.181Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 83.632 ms
+info: 2020-09-26T02:17:45.119Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:17:45.121Z ::1 - GET /api/users/me HTTP/1.1 304 - - 31.319 ms
+info: 2020-09-26T02:17:45.250Z ::1 - GET /api/banners HTTP/1.1 304 - - 21.735 ms
+info: 2020-09-26T02:17:45.253Z ::1 - GET /api/clients HTTP/1.1 304 - - 23.807 ms
+info: 2020-09-26T02:17:45.335Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.766 ms
+info: 2020-09-26T02:17:45.337Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 9.133 ms
+info: 2020-09-26T02:17:45.338Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 10.123 ms
+info: 2020-09-26T02:17:45.342Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 2.629 ms
+info: 2020-09-26T02:17:45.344Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 3.123 ms
+info: 2020-09-26T02:17:45.357Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 4.177 ms
+info: 2020-09-26T02:17:45.360Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 18.176 ms
+info: 2020-09-26T02:17:45.408Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 0.970 ms
+info: 2020-09-26T02:17:45.419Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 8.167 ms
+info: 2020-09-26T02:17:50.064Z ::1 - GET /api/banners HTTP/1.1 304 - - 14.955 ms
+info: 2020-09-26T02:17:50.067Z ::1 - GET /api/clients HTTP/1.1 304 - - 16.713 ms
+info: 2020-09-26T02:17:50.141Z ::1 - GET /api/banners HTTP/1.1 304 - - 16.477 ms
+info: 2020-09-26T02:17:50.143Z ::1 - GET /api/clients HTTP/1.1 304 - - 17.538 ms
+info: 2020-09-26T02:18:02.863Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:18:02.890Z ::1 - GET /api/users/me HTTP/1.1 304 - - 42.316 ms
+info: 2020-09-26T02:18:03.010Z ::1 - GET /api/banners HTTP/1.1 304 - - 32.439 ms
+info: 2020-09-26T02:18:03.013Z ::1 - GET /api/clients HTTP/1.1 304 - - 35.219 ms
+info: 2020-09-26T02:18:03.081Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 3.880 ms
+info: 2020-09-26T02:18:03.092Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 4.960 ms
+info: 2020-09-26T02:18:03.094Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 13.474 ms
+info: 2020-09-26T02:18:03.096Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 15.267 ms
+info: 2020-09-26T02:18:03.113Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 2.761 ms
+info: 2020-09-26T02:18:03.114Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 3.467 ms
+info: 2020-09-26T02:18:03.128Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 4.486 ms
+info: 2020-09-26T02:18:03.131Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 18.778 ms
+info: 2020-09-26T02:18:03.147Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 1.909 ms
+info: 2020-09-26T02:18:34.946Z ::1 - GET /api/banners HTTP/1.1 304 - - 7.234 ms
+info: 2020-09-26T02:18:34.961Z ::1 - GET /api/clients HTTP/1.1 304 - - 13.265 ms
+info: 2020-09-26T02:18:35.028Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:18:35.031Z ::1 - GET /api/users/me HTTP/1.1 304 - - 61.619 ms
+info: 2020-09-26T02:18:35.160Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.956 ms
+info: 2020-09-26T02:18:35.176Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 2.396 ms
+info: 2020-09-26T02:18:35.178Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 14.693 ms
+info: 2020-09-26T02:18:35.181Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 15.717 ms
+info: 2020-09-26T02:18:35.195Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 18.324 ms
+info: 2020-09-26T02:18:35.197Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 31.908 ms
+info: 2020-09-26T02:18:35.240Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 0.561 ms
+info: 2020-09-26T02:18:35.293Z ::1 - GET /api/banners HTTP/1.1 304 - - 8.552 ms
+info: 2020-09-26T02:18:35.295Z ::1 - GET /api/clients HTTP/1.1 304 - - 12.489 ms
+info: 2020-09-26T02:18:35.341Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 2.582 ms
+info: 2020-09-26T02:18:35.354Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 3.928 ms
+info: 2020-09-26T02:19:00.633Z ::1 - GET /api/banners HTTP/1.1 304 - - 24.350 ms
+info: 2020-09-26T02:19:00.635Z ::1 - GET /api/clients HTTP/1.1 304 - - 25.724 ms
+info: 2020-09-26T02:20:44.490Z ::1 - GET /api/banners HTTP/1.1 304 - - 23.239 ms
+info: 2020-09-26T02:20:44.502Z ::1 - GET /api/clients HTTP/1.1 304 - - 23.392 ms
+info: 2020-09-26T02:20:44.504Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:20:44.505Z ::1 - GET /api/users/me HTTP/1.1 304 - - 34.536 ms
+info: 2020-09-26T02:20:44.573Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.737 ms
+info: 2020-09-26T02:20:44.575Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 2.507 ms
+info: 2020-09-26T02:20:44.585Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 3.611 ms
+info: 2020-09-26T02:20:44.587Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 13.566 ms
+info: 2020-09-26T02:20:44.603Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 0.797 ms
+info: 2020-09-26T02:20:44.607Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 2.208 ms
+info: 2020-09-26T02:20:44.609Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 3.000 ms
+info: 2020-09-26T02:20:44.619Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 3.873 ms
+info: 2020-09-26T02:20:44.622Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 13.955 ms
+info: 2020-09-26T02:20:49.331Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.444 ms
+info: 2020-09-26T02:20:49.338Z ::1 - GET /api/clients HTTP/1.1 304 - - 17.825 ms
+info: 2020-09-26T02:20:56.295Z ::1 - GET /api/banners HTTP/1.1 304 - - 13.036 ms
+info: 2020-09-26T02:20:56.299Z ::1 - GET /api/clients HTTP/1.1 304 - - 33.768 ms
+info: 2020-09-26T02:21:01.692Z ::1 - GET /api/banners HTTP/1.1 304 - - 5.706 ms
+info: 2020-09-26T02:21:01.706Z ::1 - GET /api/clients HTTP/1.1 304 - - 18.048 ms
+info: 2020-09-26T02:21:11.152Z ::1 - GET /api/banners HTTP/1.1 304 - - 14.663 ms
+info: 2020-09-26T02:21:11.155Z ::1 - GET /api/clients HTTP/1.1 304 - - 15.934 ms
+info: 2020-09-26T02:21:13.714Z ::1 - GET /api/banners HTTP/1.1 304 - - 22.485 ms
+info: 2020-09-26T02:21:13.716Z ::1 - GET /api/clients HTTP/1.1 304 - - 37.997 ms
+info: 2020-09-26T02:21:15.036Z ::1 - GET /api/banners HTTP/1.1 304 - - 11.872 ms
+info: 2020-09-26T02:21:15.038Z ::1 - GET /api/clients HTTP/1.1 304 - - 12.737 ms
+info: 2020-09-26T02:21:17.068Z ::1 - GET /api/banners HTTP/1.1 304 - - 20.958 ms
+info: 2020-09-26T02:21:17.070Z ::1 - GET /api/clients HTTP/1.1 304 - - 22.101 ms
+info: 2020-09-26T02:21:17.977Z ::1 - GET /api/banners HTTP/1.1 304 - - 12.476 ms
+info: 2020-09-26T02:21:17.992Z ::1 - GET /api/clients HTTP/1.1 304 - - 20.380 ms
+info: 2020-09-26T02:21:19.517Z ::1 - GET /api/banners HTTP/1.1 304 - - 18.490 ms
+info: 2020-09-26T02:21:19.520Z ::1 - GET /api/clients HTTP/1.1 304 - - 21.000 ms
+info: 2020-09-26T02:21:20.495Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.702 ms
+info: 2020-09-26T02:21:20.509Z ::1 - GET /api/clients HTTP/1.1 304 - - 11.644 ms
+info: 2020-09-26T02:21:21.998Z ::1 - GET /api/banners HTTP/1.1 304 - - 21.750 ms
+info: 2020-09-26T02:21:22.001Z ::1 - GET /api/clients HTTP/1.1 304 - - 23.434 ms
+info: 2020-09-26T02:21:27.398Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.227 ms
+info: 2020-09-26T02:22:02.209Z ::1 - POST /api/banners/upload HTTP/1.1 200 112 - 196.564 ms
+info: 2020-09-26T02:22:02.316Z ::1 - GET /img/uploads/1f4f10a2-90c8-4b27-a1d6-0d1c4fa5cfad HTTP/1.1 200 924666 - 0.954 ms
+info: 2020-09-26T02:22:02.323Z ::1 - GET /api/banners HTTP/1.1 200 629 - 3.371 ms
+info: 2020-09-26T02:23:12.410Z ::1 - GET /img/uploads/2d8500ca-2714-42ae-a010-febdc2f8e135 HTTP/1.1 304 - - 3.927 ms
+info: 2020-09-26T02:23:12.428Z ::1 - GET /img/uploads/aabaac62-ff46-47d3-b2db-d257ea69a8d7 HTTP/1.1 304 - - 4.887 ms
+info: 2020-09-26T02:23:12.430Z ::1 - GET /img/uploads/275be4a5-f375-44d7-a78e-47e9f1abc956 HTTP/1.1 304 - - 21.884 ms
+info: 2020-09-26T02:23:12.434Z ::1 - GET /img/uploads/ad15c086-3cf7-4978-80c8-912ad1203fe8 HTTP/1.1 304 - - 25.762 ms
+info: 2020-09-26T02:23:12.438Z ::1 - GET /img/uploads/fa590dbf-eef5-428a-9d91-1cd4dac8b51a HTTP/1.1 304 - - 4.498 ms
+info: 2020-09-26T02:23:12.469Z ::1 - GET /api/clients HTTP/1.1 304 - - 22.387 ms
+info: 2020-09-26T02:23:15.728Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 2.362 ms
+info: 2020-09-26T02:23:15.740Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 3.388 ms
+info: 2020-09-26T02:23:15.743Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 15.166 ms
+info: 2020-09-26T02:23:15.752Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 17.118 ms
+info: 2020-09-26T02:23:15.756Z ::1 - GET /img/uploads/1f4f10a2-90c8-4b27-a1d6-0d1c4fa5cfad HTTP/1.1 304 - - 12.095 ms
+info: 2020-09-26T02:23:15.775Z ::1 - GET /api/clients HTTP/1.1 304 - - 19.832 ms
+info: 2020-09-26T02:23:15.789Z ::1 - GET /api/banners HTTP/1.1 304 - - 19.402 ms
+info: 2020-09-26T02:23:32.875Z ::1 - GET /api/banners HTTP/1.1 304 - - 27.397 ms
+info: 2020-09-26T02:23:32.877Z ::1 - GET /api/clients HTTP/1.1 304 - - 27.069 ms
+info: 2020-09-26T02:23:39.793Z ::1 - GET /api/banners HTTP/1.1 304 - - 4.436 ms
+info: 2020-09-26T02:23:39.797Z ::1 - GET /api/clients HTTP/1.1 304 - - 11.572 ms
+info: 2020-09-26T02:23:41.100Z ::1 - GET /api/banners HTTP/1.1 304 - - 20.909 ms
+info: 2020-09-26T02:23:41.102Z ::1 - GET /api/clients HTTP/1.1 304 - - 33.752 ms
+info: 2020-09-26T02:23:42.883Z ::1 - GET /api/banners HTTP/1.1 304 - - 3.314 ms
+info: 2020-09-26T02:23:44.033Z ::1 - GET /api/clients HTTP/1.1 304 - - 4.096 ms
+info: 2020-09-26T02:23:47.133Z ::1 - GET /api/banners HTTP/1.1 304 - - 6.335 ms
+info: 2020-09-26T02:23:47.137Z ::1 - GET /api/clients HTTP/1.1 304 - - 14.151 ms
+info: 2020-09-26T02:23:47.692Z ::1 - GET /api/clients HTTP/1.1 304 - - 5.662 ms
+info: 2020-09-26T02:24:18.456Z ::1 - GET /api/banners HTTP/1.1 304 - - 32.116 ms
+info: 2020-09-26T02:24:18.458Z ::1 - GET /api/clients HTTP/1.1 304 - - 33.883 ms
+info: 2020-09-26T02:24:18.502Z ::1 - GET /api/clients HTTP/1.1 304 - - 10.213 ms
+info: 2020-09-26T02:24:26.936Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.747 ms
+info: 2020-09-26T02:24:26.950Z ::1 - GET /api/clients HTTP/1.1 304 - - 20.531 ms
+info: 2020-09-26T02:24:29.079Z ::1 - GET /api/banners HTTP/1.1 304 - - 22.277 ms
+info: 2020-09-26T02:24:29.081Z ::1 - GET /api/clients HTTP/1.1 304 - - 23.634 ms
+info: 2020-09-26T02:25:18.181Z ::1 - GET /api/banners HTTP/1.1 304 - - 17.558 ms
+info: 2020-09-26T02:25:18.185Z ::1 - GET /api/clients HTTP/1.1 304 - - 17.908 ms
+info: 2020-09-26T02:25:34.696Z ::1 - GET /api/banners HTTP/1.1 304 - - 24.021 ms
+info: 2020-09-26T02:25:34.704Z ::1 - GET /api/clients HTTP/1.1 304 - - 29.125 ms
+info: 2020-09-26T02:26:29.132Z ::1 - GET /api/banners HTTP/1.1 304 - - 21.506 ms
+info: 2020-09-26T02:26:29.134Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:26:29.137Z ::1 - GET /api/users/me HTTP/1.1 304 - - 25.014 ms
+info: 2020-09-26T02:26:29.336Z ::1 - GET /img/uploads/15c9bb60-abdd-442e-bc08-4f203342fff0 HTTP/1.1 304 - - 1.995 ms
+info: 2020-09-26T02:26:29.349Z ::1 - GET /img/uploads/bf7f5cee-486f-4e45-b9e4-81100d1fd872 HTTP/1.1 304 - - 3.199 ms
+info: 2020-09-26T02:26:29.352Z ::1 - GET /img/uploads/fd8cddee-55f6-4b20-9705-f5d1b569f100 HTTP/1.1 304 - - 16.182 ms
+info: 2020-09-26T02:26:29.353Z ::1 - GET /img/uploads/2fc0010f-c21e-4b6d-85ad-db877ae0fb6c HTTP/1.1 304 - - 18.271 ms
+info: 2020-09-26T02:26:29.356Z ::1 - GET /img/uploads/1f4f10a2-90c8-4b27-a1d6-0d1c4fa5cfad HTTP/1.1 304 - - 19.627 ms
+info: 2020-09-26T02:26:29.529Z ::1 - GET /api/banners HTTP/1.1 304 - - 2.631 ms
+info: 2020-09-26T02:26:47.526Z Token valido se encontro al usuario miya@gmail.com autenticación completada
+info: 2020-09-26T02:26:47.529Z ::1 - GET /api/users/me HTTP/1.1 304 - - 14.024 ms
+info: 2020-09-26T02:27:42.290Z Informando en el servidor
+info: 2020-09-26T02:31:35.615Z Informando en el servidor

@@ -1,12 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Backend instagram",
+  "description": "Backend consultory",
   "main": "index.js",
   "author": "Diego Ortega",
   "license": "MIT",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node server.js",
     "server": "nodemon server",
     "client": "npm start --prefix ../client",
     "dev": "nodemon --exec npm start"
@@ -16,6 +16,7 @@
     "aws-sdk": "^2.752.0",
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "debug": "^4.2.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",

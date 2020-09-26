@@ -22,7 +22,7 @@ clientsRouter.get('/', (req, res) => {
 })
 
 // Crear cliente
-clientsRouter.post('/', jwtAuthenticate, (req,res) => {
+clientsRouter.post('/', (req,res) => {
     let newClient = req.body
     return clientController.createClient(newClient,req.user.id)
     .then(client => {
@@ -36,19 +36,6 @@ clientsRouter.post('/', jwtAuthenticate, (req,res) => {
     })
 })
 
-// Subir imagen
-clientsRouter.post('/upload', [jwtAuthenticate,validateImage], async (req, res) => {
-    logger.info(`Request recibido para subir imagen`);
-
-    const randomName = `${uuidv4()}.${req.extFile}`;
-    const urlImage = await clientController.saveImage(req.body, randomName);
-
-    logger.info(
-      `Se ha guardado su imagen de perfil [${urlImage}].`
-    );
-
-    res.json(urlImage);
-})
 
 // Editar imagen 
 clientsRouter.put('/:id', jwtAuthenticate, (req, res) => {
